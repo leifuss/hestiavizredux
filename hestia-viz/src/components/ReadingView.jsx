@@ -179,6 +179,7 @@ function ReadingView({ booksIndex, placesData, bookTexts }) {
         onPlaceClick={handleMapPlaceClick}
         currentChapter={currentChapter}
         language={language}
+        bookInfo={bookInfo}
       />
     </div>
   )

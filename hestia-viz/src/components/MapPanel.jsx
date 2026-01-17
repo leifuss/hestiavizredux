@@ -1,7 +1,8 @@
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { MapContainer, TileLayer, CircleMarker, Tooltip, Marker, useMap, LayersControl } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import 'leaflet.vectorgrid'
 
 const { BaseLayer } = LayersControl
 
@@ -65,6 +66,137 @@ function MapController({ selectedPlace, placesData }) {
       }
     }
   }, [selectedPlace, placesData, map])
+
+  return null
+}
+
+// Component to handle base layer changes
+function LayerChangeHandler({ onLayerChange }) {
+  const map = useMap()
+
+  useEffect(() => {
+    const handleBaseLayerChange = (e) => {
+      const layerName = e.name.toLowerCase()
+      if (layerName.includes('historical')) {
+        onLayerChange('historical')
+      } else if (layerName.includes('satellite')) {
+        onLayerChange('satellite')
+      } else if (layerName.includes('political')) {
+        onLayerChange('political')
+      } else if (layerName.includes('cawm')) {
+        onLayerChange('cawm')
+      }
+    }
+
+    map.on('baselayerchange', handleBaseLayerChange)
+
+    return () => {
+      map.off('baselayerchange', handleBaseLayerChange)
+    }
+  }, [map, onLayerChange])
+
+  return null
+}
+
+// Component to add OpenHistoricalMap vector tiles with temporal filtering
+function TemporalMapLayer({ dateRange, isActive }) {
+  const map = useMap()
+
+  useEffect(() => {
+    if (!isActive || !dateRange) return
+
+    // OpenHistoricalMap vector tile URL
+    const vectorTileUrl = 'https://vtiles.openhistoricalmap.org/maps/osm/{z}/{x}/{y}.pbf'
+
+    // Create vector grid layer with temporal filtering
+    const vectorGrid = L.vectorGrid.protobuf(vectorTileUrl, {
+      rendererFactory: L.canvas.tile,
+      vectorTileLayerStyles: {
+        // Style water features
+        water: {
+          fill: true,
+          fillColor: '#9dd9f0',
+          fillOpacity: 0.3,
+          stroke: true,
+          color: '#6b9fb5',
+          weight: 1
+        },
+        // Style landuse/natural areas
+        landuse: {
+          fill: true,
+          fillColor: '#e8e4d0',
+          fillOpacity: 0.2,
+          stroke: false
+        },
+        // Style boundaries (regions, empires)
+        boundary: {
+          fill: false,
+          stroke: true,
+          color: '#8b7355',
+          weight: 2,
+          opacity: 0.6,
+          dashArray: '5, 5'
+        },
+        // Style places (cities, settlements)
+        place: {
+          fill: true,
+          fillColor: '#654321',
+          fillOpacity: 0.4,
+          stroke: true,
+          color: '#3a2817',
+          weight: 1,
+          radius: 4
+        },
+        // Default style for other features
+        _default: {
+          fill: true,
+          fillColor: '#cccccc',
+          fillOpacity: 0.1,
+          stroke: true,
+          color: '#999999',
+          weight: 1
+        }
+      },
+      // Filter features by date range
+      filter: function(feature) {
+        const props = feature.properties
+        const startDate = props.start_decdate
+        const endDate = props.end_decdate
+
+        // If no date properties, show the feature
+        if (startDate === undefined && endDate === undefined) {
+          return true
+        }
+
+        // Convert BCE years to decimal dates (negative values)
+        // dateRange.start and dateRange.end are already negative for BCE
+        const rangeStart = dateRange.start
+        const rangeEnd = dateRange.end
+
+        // Show feature if it overlaps with our date range
+        // Feature exists if: (feature_start <= range_end) AND (feature_end >= range_start)
+        if (startDate !== undefined && endDate !== undefined) {
+          return startDate <= rangeEnd && endDate >= rangeStart
+        } else if (startDate !== undefined) {
+          return startDate <= rangeEnd
+        } else if (endDate !== undefined) {
+          return endDate >= rangeStart
+        }
+
+        return true
+      },
+      interactive: false,
+      maxNativeZoom: 14,
+      minZoom: 3
+    })
+
+    vectorGrid.addTo(map)
+
+    // Cleanup function to remove layer when component unmounts or becomes inactive
+    return () => {
+      map.removeLayer(vectorGrid)
+    }
+  }, [map, dateRange, isActive])
 
   return null
 }
@@ -285,8 +417,12 @@ function MapPanel({
   placesData,
   onPlaceClick,
   currentChapter,
-  language
+  language,
+  bookInfo
 }) {
+  // Track which base layer is active
+  const [activeBaseLayer, setActiveBaseLayer] = useState('satellite')
+
   // Categorize places
   const categorizedCurrent = useMemo(() => {
     const result = { regions: [], rivers: [], water: [], mountains: [], settlements: [] }
@@ -347,11 +483,28 @@ function MapPanel({
               maxZoom={11}
             />
           </BaseLayer>
+
+          <BaseLayer name="Historical Map (OpenHistoricalMap)">
+            <TileLayer
+              attribution='&copy; <a href="https://www.openhistoricalmap.org/">OpenHistoricalMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              maxZoom={19}
+              opacity={0}
+            />
+          </BaseLayer>
         </LayersControl>
 
         <MapController
           selectedPlace={selectedPlace}
           placesData={placesData}
+        />
+
+        <LayerChangeHandler onLayerChange={setActiveBaseLayer} />
+
+        {/* Temporal vector tiles layer - only active when Historical Map is selected */}
+        <TemporalMapLayer
+          dateRange={bookInfo?.dateRange}
+          isActive={activeBaseLayer === 'historical'}
         />
 
         {/* Memory rivers */}
