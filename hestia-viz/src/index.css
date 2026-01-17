@@ -307,6 +307,7 @@ a:hover {
   flex-direction: column;
   background: var(--color-parchment);
   border-right: 1px solid var(--color-parchment-dark);
+  flex-shrink: 0;
 }
 
 .text-header {
@@ -477,6 +478,7 @@ a:hover {
   height: 100%;
   position: relative;
   min-height: 0; /* Ensure proper flexbox sizing */
+  flex-shrink: 0;
 }
 
 .map-panel .leaflet-container {
