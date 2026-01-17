@@ -92,8 +92,8 @@ function ReadingView({ booksIndex, placesData, bookTexts }) {
   }
 
   const handleMapPlaceClick = (placeId) => {
-    setSelectedPlace(placeId)
-    setHighlightedPlaces(new Set([placeId]))
+    // Navigate to place detail page
+    navigate(`/place/${placeId}`)
   }
 
   if (!bookData) {

@@ -70,6 +70,30 @@ function TextPanel({
     return segments
   }, [currentChapterData, placesData, selectedPlace, highlightedPlaces])
 
+  // Get unlocated places for current chapter
+  const unlocatedPlaces = useMemo(() => {
+    if (!currentChapterData) return []
+
+    const places = currentChapterData.places || []
+    const unlocated = []
+    const seen = new Set()
+
+    places.forEach(place => {
+      const placeData = placesData?.[place.placeId]
+      const hasCoords = placeData && placeData.lat && placeData.lng
+
+      if (!hasCoords && !seen.has(place.placeId)) {
+        seen.add(place.placeId)
+        unlocated.push({
+          id: place.placeId,
+          name: place.name
+        })
+      }
+    })
+
+    return unlocated.sort((a, b) => a.name.localeCompare(b.name))
+  }, [currentChapterData, placesData])
+
   // Get sorted chapter IDs for navigation
   const chapterIds = useMemo(() => {
     if (!bookData?.chapters) return []
@@ -131,7 +155,7 @@ function TextPanel({
       <div className="text-content" ref={textRef}>
         <div className="chapter-section">
           <div className="chapter-number ui-text">
-            Chapter {currentChapter} ({currentIndex + 1} of {chapterIds.length})
+            Chapter {currentChapter} (of {chapterIds.length})
           </div>
           <div className="chapter-text">
             {annotatedText?.map((segment, index) => {
@@ -179,6 +203,19 @@ function TextPanel({
               )
             })}
           </div>
+
+          {unlocatedPlaces.length > 0 && (
+            <div className="unlocated-places">
+              <h4>Places without known coordinates ({unlocatedPlaces.length})</h4>
+              <div className="unlocated-list">
+                {unlocatedPlaces.map(place => (
+                  <span key={place.id} className="unlocated-place">
+                    {place.name}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -59,7 +59,7 @@ function MapController({ selectedPlace, placesData }) {
 function RegionLabel({ place, isMemory, opacity = 1, onClick }) {
   const icon = useMemo(() => {
     const name = place.name.replace(/\s*\([^)]*\)\s*/g, '').trim()
-    const fontSize = isMemory ? '11px' : '13px'
+    const fontSize = isMemory ? '13px' : '15px'
     const baseOpacity = isMemory ? opacity * 0.85 : 1
 
     return L.divIcon({
@@ -112,7 +112,7 @@ function RegionLabel({ place, isMemory, opacity = 1, onClick }) {
 function WaterLabel({ place, isMemory, opacity = 1, onClick }) {
   const icon = useMemo(() => {
     const name = place.name.replace(/\s*\([^)]*\)\s*/g, '').trim()
-    const fontSize = isMemory ? '12px' : '14px'
+    const fontSize = isMemory ? '14px' : '16px'
     const baseOpacity = isMemory ? opacity * 0.8 : 0.95
 
     return L.divIcon({

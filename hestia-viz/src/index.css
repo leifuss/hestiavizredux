@@ -413,6 +413,42 @@ a:hover {
   50% { background: rgba(184, 151, 59, 0.7); }
 }
 
+/* Unlocated places section */
+.unlocated-places {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--color-parchment-dark);
+  border-radius: 6px;
+  border-left: 4px solid var(--color-brown-light);
+}
+
+.unlocated-places h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-brown-medium);
+  margin-bottom: 0.75rem;
+}
+
+.unlocated-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.unlocated-place {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  background: white;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: var(--color-brown-medium);
+  opacity: 0.8;
+  font-style: italic;
+  border: 1px solid var(--color-parchment-dark);
+}
+
 /* Map Panel */
 .map-panel {
   width: 50%;
