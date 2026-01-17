@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, CircleMarker, Popup, Polyline } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 
 function PlaceDetailView({ placesData, booksIndex }) {
@@ -177,6 +177,31 @@ function PlaceDetailView({ placesData, booksIndex }) {
               maxZoom={19}
               opacity={0.7}
             />
+
+            {/* Lines connecting main place to co-occurring places */}
+            {coOccurringPlaces.filter(p => p.lat && p.lng).map(coPlace => {
+              // Calculate line weight based on co-occurrence frequency
+              // More co-occurrences = thicker line (min 1px, max 10px)
+              const maxCoCount = Math.max(...coOccurringPlaces.map(p => p.coCount))
+              const weight = Math.max(1, Math.min(10, (coPlace.coCount / maxCoCount) * 8))
+              const opacity = Math.max(0.3, Math.min(0.8, (coPlace.coCount / maxCoCount) * 0.7 + 0.1))
+
+              return (
+                <Polyline
+                  key={`line-${coPlace.id}`}
+                  positions={[
+                    [place.lat, place.lng],
+                    [coPlace.lat, coPlace.lng]
+                  ]}
+                  pathOptions={{
+                    color: '#3a6b7c',
+                    weight: weight,
+                    opacity: opacity,
+                    dashArray: '5, 10'
+                  }}
+                />
+              )
+            })}
 
             {/* Show co-occurring places */}
             {coOccurringPlaces.filter(p => p.lat && p.lng).map(coPlace => (

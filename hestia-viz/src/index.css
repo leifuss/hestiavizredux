@@ -397,6 +397,7 @@ a:hover {
 
 .chapter-text {
   text-align: justify;
+  min-height: 400px; /* Prevent layout shift when loading Greek text */
 }
 
 .greek-text {
