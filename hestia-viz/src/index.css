@@ -809,6 +809,11 @@ a:hover {
     min-height: 44px;
     min-width: 44px;
   }
+
+  /* Hide legend on mobile to save space */
+  .memory-legend {
+    display: none;
+  }
 }
 
 /* Very small phones */
