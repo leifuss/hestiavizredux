@@ -120,32 +120,45 @@ function TemporalMapLayer({ dateRange, isActive }) {
       pane: 'vectorTiles',
       rendererFactory: L.canvas.tile,
       vectorTileLayerStyles: {
-        // Only style boundaries - hide everything else
-        boundary: function(properties) {
-          return {
-            fill: false,
-            stroke: true,
-            color: '#8b7355',
-            weight: 2,
-            opacity: 0.8,
-            dashArray: '5, 5'
-          }
+        // Only style boundaries - everything else gets hidden
+        boundary: {
+          fill: false,
+          stroke: true,
+          color: '#8b7355',
+          weight: 2,
+          opacity: 0.8,
+          dashArray: '5, 5'
         },
-        // Hide all other layers
+        // Hide all other layers explicitly
         water: { weight: 0, fillOpacity: 0, opacity: 0 },
         landuse: { weight: 0, fillOpacity: 0, opacity: 0 },
         place: { weight: 0, fillOpacity: 0, opacity: 0 },
         road: { weight: 0, fillOpacity: 0, opacity: 0 },
         building: { weight: 0, fillOpacity: 0, opacity: 0 },
+        transportation: { weight: 0, fillOpacity: 0, opacity: 0 },
         _default: { weight: 0, fillOpacity: 0, opacity: 0 }
       },
       // Filter features by date range and layer type
       filter: function(feature, zoom) {
         const props = feature.properties || {}
-        const layer = feature.layer || {}
 
-        // Only show boundary features
-        if (layer.name !== 'boundary') {
+        // Log the feature structure to debug
+        if (Math.random() < 0.01) { // Log ~1% to avoid spam
+          console.log('Sample feature:', {
+            type: feature.type,
+            layerName: feature.layer?.name,
+            properties: props
+          })
+        }
+
+        // Check if this is a boundary - try different possible layer name patterns
+        const layerName = feature.layer?.name || ''
+        const isBoundary = layerName === 'boundary' ||
+                          layerName.includes('boundary') ||
+                          layerName === 'boundaries' ||
+                          props.boundary !== undefined
+
+        if (!isBoundary) {
           return false
         }
 
@@ -154,7 +167,9 @@ function TemporalMapLayer({ dateRange, isActive }) {
 
         // If feature has no date properties, don't show it (strict filtering)
         if (startDate === undefined && endDate === undefined) {
-          console.log('Excluding feature with no dates:', props.name || 'unnamed')
+          if (Math.random() < 0.1) { // Log some examples
+            console.log('Excluding boundary with no dates:', props.name || 'unnamed', layerName)
+          }
           return false
         }
 
@@ -163,26 +178,25 @@ function TemporalMapLayer({ dateRange, isActive }) {
         const rangeEnd = dateRange.end
 
         // Show feature if it overlaps with our date range
-        // Feature exists if: (feature_start <= range_end) AND (feature_end >= range_start)
         let shouldShow = false
 
         if (startDate !== undefined && endDate !== undefined) {
           // Feature has both start and end dates
           shouldShow = startDate <= rangeEnd && endDate >= rangeStart
           if (shouldShow) {
-            console.log('Showing boundary (both dates):', props.name || 'unnamed', { startDate, endDate, rangeStart, rangeEnd })
+            console.log('✓ Showing boundary (both dates):', props.name || 'unnamed', { startDate, endDate, rangeStart, rangeEnd })
           }
         } else if (startDate !== undefined) {
           // Feature has only start date - show if it started before our range ended
           shouldShow = startDate <= rangeEnd
           if (shouldShow) {
-            console.log('Showing boundary (start only):', props.name || 'unnamed', { startDate, rangeStart, rangeEnd })
+            console.log('✓ Showing boundary (start only):', props.name || 'unnamed', { startDate, rangeStart, rangeEnd })
           }
         } else if (endDate !== undefined) {
           // Feature has only end date - show if it ended after our range started
           shouldShow = endDate >= rangeStart
           if (shouldShow) {
-            console.log('Showing boundary (end only):', props.name || 'unnamed', { endDate, rangeStart, rangeEnd })
+            console.log('✓ Showing boundary (end only):', props.name || 'unnamed', { endDate, rangeStart, rangeEnd })
           }
         }
 
@@ -194,7 +208,7 @@ function TemporalMapLayer({ dateRange, isActive }) {
     })
 
     vectorGrid.addTo(map)
-    console.log('Vector grid layer added with pane:', 'vectorTiles')
+    console.log('Vector grid layer added to pane:', 'vectorTiles')
 
     // Cleanup function to remove layer when component unmounts or becomes inactive
     return () => {
