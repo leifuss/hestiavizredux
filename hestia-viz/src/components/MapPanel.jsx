@@ -77,9 +77,7 @@ function LayerChangeHandler({ onLayerChange }) {
   useEffect(() => {
     const handleBaseLayerChange = (e) => {
       const layerName = e.name.toLowerCase()
-      if (layerName.includes('historical')) {
-        onLayerChange('historical')
-      } else if (layerName.includes('satellite')) {
+      if (layerName.includes('satellite')) {
         onLayerChange('satellite')
       } else if (layerName.includes('political')) {
         onLayerChange('political')
@@ -105,6 +103,8 @@ function TemporalMapLayer({ dateRange, isActive }) {
   useEffect(() => {
     if (!isActive || !dateRange) return
 
+    console.log('Date range for filtering:', dateRange)
+
     // OpenHistoricalMap vector tile URL
     const vectorTileUrl = 'https://vtiles.openhistoricalmap.org/maps/osm/{z}/{x}/{y}.pbf'
 
@@ -112,78 +112,66 @@ function TemporalMapLayer({ dateRange, isActive }) {
     const vectorGrid = L.vectorGrid.protobuf(vectorTileUrl, {
       rendererFactory: L.canvas.tile,
       vectorTileLayerStyles: {
-        // Style water features
-        water: {
-          fill: true,
-          fillColor: '#9dd9f0',
-          fillOpacity: 0.3,
-          stroke: true,
-          color: '#6b9fb5',
-          weight: 1
+        // Only style boundaries - hide everything else
+        boundary: function(properties) {
+          return {
+            fill: false,
+            stroke: true,
+            color: '#8b7355',
+            weight: 2,
+            opacity: 0.7,
+            dashArray: '5, 5'
+          }
         },
-        // Style landuse/natural areas
-        landuse: {
-          fill: true,
-          fillColor: '#e8e4d0',
-          fillOpacity: 0.2,
-          stroke: false
-        },
-        // Style boundaries (regions, empires)
-        boundary: {
-          fill: false,
-          stroke: true,
-          color: '#8b7355',
-          weight: 2,
-          opacity: 0.6,
-          dashArray: '5, 5'
-        },
-        // Style places (cities, settlements)
-        place: {
-          fill: true,
-          fillColor: '#654321',
-          fillOpacity: 0.4,
-          stroke: true,
-          color: '#3a2817',
-          weight: 1,
-          radius: 4
-        },
-        // Default style for other features
-        _default: {
-          fill: true,
-          fillColor: '#cccccc',
-          fillOpacity: 0.1,
-          stroke: true,
-          color: '#999999',
-          weight: 1
-        }
+        // Hide all other layers
+        water: { weight: 0, fillOpacity: 0, opacity: 0 },
+        landuse: { weight: 0, fillOpacity: 0, opacity: 0 },
+        place: { weight: 0, fillOpacity: 0, opacity: 0 },
+        road: { weight: 0, fillOpacity: 0, opacity: 0 },
+        building: { weight: 0, fillOpacity: 0, opacity: 0 },
+        _default: { weight: 0, fillOpacity: 0, opacity: 0 }
       },
-      // Filter features by date range
-      filter: function(feature) {
-        const props = feature.properties
+      // Filter features by date range and layer type
+      filter: function(feature, zoom) {
+        const props = feature.properties || {}
+        const layer = feature.layer || {}
+
+        // Only show boundary features
+        if (layer.name !== 'boundary') {
+          return false
+        }
+
         const startDate = props.start_decdate
         const endDate = props.end_decdate
 
-        // If no date properties, show the feature
+        // If feature has no date properties, don't show it
         if (startDate === undefined && endDate === undefined) {
-          return true
+          return false
         }
 
-        // Convert BCE years to decimal dates (negative values)
-        // dateRange.start and dateRange.end are already negative for BCE
+        // Convert our date range (BCE years are negative)
         const rangeStart = dateRange.start
         const rangeEnd = dateRange.end
+
+        console.log('Feature dates:', { startDate, endDate, rangeStart, rangeEnd, props })
 
         // Show feature if it overlaps with our date range
         // Feature exists if: (feature_start <= range_end) AND (feature_end >= range_start)
         if (startDate !== undefined && endDate !== undefined) {
-          return startDate <= rangeEnd && endDate >= rangeStart
+          const overlaps = startDate <= rangeEnd && endDate >= rangeStart
+          if (overlaps) {
+            console.log('Showing boundary:', props.name || 'unnamed', { startDate, endDate })
+          }
+          return overlaps
         } else if (startDate !== undefined) {
+          // Feature has only start date - show if it started before range ended
           return startDate <= rangeEnd
         } else if (endDate !== undefined) {
+          // Feature has only end date - show if it ended after range started
           return endDate >= rangeStart
         }
 
-        return true
+        return false
       },
       interactive: false,
       maxNativeZoom: 14,
@@ -483,15 +471,6 @@ function MapPanel({
               maxZoom={11}
             />
           </BaseLayer>
-
-          <BaseLayer name="Historical Map (OpenHistoricalMap)">
-            <TileLayer
-              attribution='&copy; <a href="https://www.openhistoricalmap.org/">OpenHistoricalMap</a> contributors'
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-              maxZoom={19}
-              opacity={0}
-            />
-          </BaseLayer>
         </LayersControl>
 
         <MapController
@@ -501,10 +480,10 @@ function MapPanel({
 
         <LayerChangeHandler onLayerChange={setActiveBaseLayer} />
 
-        {/* Temporal vector tiles layer - only active when Historical Map is selected */}
+        {/* Temporal vector tiles layer - overlay on CAWM layer */}
         <TemporalMapLayer
           dateRange={bookInfo?.dateRange}
-          isActive={activeBaseLayer === 'historical'}
+          isActive={activeBaseLayer === 'cawm'}
         />
 
         {/* Memory rivers */}
