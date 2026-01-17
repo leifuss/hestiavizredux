@@ -5,6 +5,20 @@ import 'leaflet/dist/leaflet.css'
 
 const { BaseLayer } = LayersControl
 
+// Helper to get appropriate place name based on language
+function getPlaceName(place, useGreek = false) {
+  if (!useGreek) return place.name
+
+  // Extract Greek transliteration if available (after slash)
+  // e.g., "Halicarnassus/Halikarnassos" -> "Halikarnassos"
+  if (place.name.includes('/')) {
+    const parts = place.name.split('/')
+    return parts[1].trim()
+  }
+
+  return place.name
+}
+
 // Helper to determine place category
 function getPlaceCategory(place) {
   const placeType = (place.placeType || '').toLowerCase()
@@ -56,9 +70,10 @@ function MapController({ selectedPlace, placesData }) {
 }
 
 // Text label component for regions/ethnoi - improved readability
-function RegionLabel({ place, isMemory, opacity = 1, onClick }) {
+function RegionLabel({ place, isMemory, opacity = 1, onClick, language }) {
   const icon = useMemo(() => {
-    const name = place.name.replace(/\s*\([^)]*\)\s*/g, '').trim()
+    const placeName = getPlaceName(place, language === 'greek')
+    const name = placeName.replace(/\s*\([^)]*\)\s*/g, '').trim()
     const fontSize = isMemory ? '13px' : '15px'
     const baseOpacity = isMemory ? opacity * 0.85 : 1
 
@@ -85,7 +100,7 @@ function RegionLabel({ place, isMemory, opacity = 1, onClick }) {
       iconSize: [0, 0],
       iconAnchor: [0, 0]
     })
-  }, [place.name, isMemory, opacity])
+  }, [place.name, isMemory, opacity, language])
 
   return (
     <Marker
@@ -96,7 +111,7 @@ function RegionLabel({ place, isMemory, opacity = 1, onClick }) {
       }}
     >
       <Tooltip direction="top" offset={[0, -5]} opacity={0.95}>
-        <div className="popup-place-name">{place.name}</div>
+        <div className="popup-place-name">{getPlaceName(place, language === 'greek')}</div>
         {place.placeType && (
           <div className="popup-place-type">{place.placeType}</div>
         )}
@@ -109,9 +124,10 @@ function RegionLabel({ place, isMemory, opacity = 1, onClick }) {
 }
 
 // Water body label (seas, lakes) - italic serif style
-function WaterLabel({ place, isMemory, opacity = 1, onClick }) {
+function WaterLabel({ place, isMemory, opacity = 1, onClick, language }) {
   const icon = useMemo(() => {
-    const name = place.name.replace(/\s*\([^)]*\)\s*/g, '').trim()
+    const placeName = getPlaceName(place, language === 'greek')
+    const name = placeName.replace(/\s*\([^)]*\)\s*/g, '').trim()
     const fontSize = isMemory ? '14px' : '16px'
     const baseOpacity = isMemory ? opacity * 0.8 : 0.95
 
@@ -138,7 +154,7 @@ function WaterLabel({ place, isMemory, opacity = 1, onClick }) {
       iconSize: [0, 0],
       iconAnchor: [0, 0]
     })
-  }, [place.name, isMemory, opacity])
+  }, [place.name, isMemory, opacity, language])
 
   return (
     <Marker
@@ -149,7 +165,7 @@ function WaterLabel({ place, isMemory, opacity = 1, onClick }) {
       }}
     >
       <Tooltip direction="top" offset={[0, -5]} opacity={0.95}>
-        <div className="popup-place-name" style={{ color: '#1e4078' }}>{place.name}</div>
+        <div className="popup-place-name" style={{ color: '#1e4078' }}>{getPlaceName(place, language === 'greek')}</div>
         {place.placeType && (
           <div className="popup-place-type">{place.placeType}</div>
         )}
@@ -159,7 +175,7 @@ function WaterLabel({ place, isMemory, opacity = 1, onClick }) {
 }
 
 // River marker - blue circle
-function RiverMarker({ place, isMemory, opacity = 1, isSelected, onClick }) {
+function RiverMarker({ place, isMemory, opacity = 1, isSelected, onClick, language }) {
   const baseColor = '#2563eb'
   const selectedColor = '#60a5fa'
   const color = isSelected ? selectedColor : baseColor
@@ -181,7 +197,7 @@ function RiverMarker({ place, isMemory, opacity = 1, isSelected, onClick }) {
       }}
     >
       <Tooltip direction="top" offset={[0, -5]} opacity={0.95} sticky>
-        <div className="popup-place-name" style={{ color: baseColor }}>{place.name}</div>
+        <div className="popup-place-name" style={{ color: baseColor }}>{getPlaceName(place, language === 'greek')}</div>
         <div className="popup-place-type">river</div>
         {isMemory && place.memoryChapter && (
           <div className="popup-place-type ui-text" style={{ fontSize: '0.75rem' }}>
@@ -194,7 +210,7 @@ function RiverMarker({ place, isMemory, opacity = 1, isSelected, onClick }) {
 }
 
 // Mountain marker - gray
-function MountainMarker({ place, isMemory, opacity = 1, isSelected, onClick }) {
+function MountainMarker({ place, isMemory, opacity = 1, isSelected, onClick, language }) {
   const baseColor = '#78716c'
   const fillOpacity = isMemory ? opacity * 0.6 : 0.8
 
@@ -214,7 +230,7 @@ function MountainMarker({ place, isMemory, opacity = 1, isSelected, onClick }) {
       }}
     >
       <Tooltip direction="top" offset={[0, -5]} opacity={0.95} sticky>
-        <div className="popup-place-name">{place.name}</div>
+        <div className="popup-place-name">{getPlaceName(place, language === 'greek')}</div>
         <div className="popup-place-type">mountain</div>
       </Tooltip>
     </CircleMarker>
@@ -222,7 +238,7 @@ function MountainMarker({ place, isMemory, opacity = 1, isSelected, onClick }) {
 }
 
 // Default settlement marker
-function SettlementMarker({ place, isMemory, opacity = 1, isSelected, onClick, memoryChapter }) {
+function SettlementMarker({ place, isMemory, opacity = 1, isSelected, onClick, memoryChapter, language }) {
   const currentColor = '#c45a3b'
   const memoryColor = '#3a6b7c'
   const selectedColor = '#b8973b'
@@ -248,7 +264,7 @@ function SettlementMarker({ place, isMemory, opacity = 1, isSelected, onClick, m
       }}
     >
       <Tooltip direction="top" offset={[0, -5]} opacity={0.95} sticky>
-        <div className="popup-place-name">{place.name}</div>
+        <div className="popup-place-name">{getPlaceName(place, language === 'greek')}</div>
         {place.placeType && (
           <div className="popup-place-type">{place.placeType}</div>
         )}
@@ -268,7 +284,8 @@ function MapPanel({
   selectedPlace,
   placesData,
   onPlaceClick,
-  currentChapter
+  currentChapter,
+  language
 }) {
   // Categorize places
   const categorizedCurrent = useMemo(() => {
@@ -346,6 +363,7 @@ function MapPanel({
             opacity={place.opacity}
             isSelected={selectedPlace === place.id}
             onClick={onPlaceClick}
+            language={language}
           />
         ))}
 
@@ -358,6 +376,7 @@ function MapPanel({
             opacity={place.opacity}
             isSelected={selectedPlace === place.id}
             onClick={onPlaceClick}
+            language={language}
           />
         ))}
 
@@ -371,6 +390,7 @@ function MapPanel({
             isSelected={selectedPlace === place.id}
             onClick={onPlaceClick}
             memoryChapter={place.memoryChapter}
+            language={language}
           />
         ))}
 
@@ -382,6 +402,7 @@ function MapPanel({
             isMemory={false}
             isSelected={selectedPlace === place.id}
             onClick={onPlaceClick}
+            language={language}
           />
         ))}
 
@@ -393,6 +414,7 @@ function MapPanel({
             isMemory={false}
             isSelected={selectedPlace === place.id}
             onClick={onPlaceClick}
+            language={language}
           />
         ))}
 
@@ -404,6 +426,7 @@ function MapPanel({
             isMemory={false}
             isSelected={selectedPlace === place.id}
             onClick={onPlaceClick}
+            language={language}
           />
         ))}
 
@@ -417,6 +440,7 @@ function MapPanel({
             isMemory={true}
             opacity={place.opacity}
             onClick={onPlaceClick}
+            language={language}
           />
         ))}
 
@@ -428,6 +452,7 @@ function MapPanel({
             isMemory={true}
             opacity={place.opacity}
             onClick={onPlaceClick}
+            language={language}
           />
         ))}
 
@@ -438,6 +463,7 @@ function MapPanel({
             place={place}
             isMemory={false}
             onClick={onPlaceClick}
+            language={language}
           />
         ))}
 
@@ -448,6 +474,7 @@ function MapPanel({
             place={place}
             isMemory={false}
             onClick={onPlaceClick}
+            language={language}
           />
         ))}
       </MapContainer>
