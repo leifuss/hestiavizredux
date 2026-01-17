@@ -1,0 +1,5361 @@
+{
+  "id": 2,
+  "title": "Book 2: Euterpe",
+  "chapters": [
+    {
+      "id": 1,
+      "places": [
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 326
+        },
+        {
+          "placeId": "550406",
+          "name": "Aeolians slaves",
+          "charOffset": 338
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 553
+        },
+        {
+          "placeId": "609502",
+          "name": "Phrygians",
+          "charOffset": 736
+        },
+        {
+          "placeId": "609502",
+          "name": "Phrygian word",
+          "charOffset": 1992
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 2054
+        },
+        {
+          "placeId": "609502",
+          "name": "Phrygians",
+          "charOffset": 2086
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 2193
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "places": [
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 2408
+        },
+        {
+          "placeId": "786017",
+          "name": "Thebes",
+          "charOffset": 2479
+        },
+        {
+          "placeId": "727117",
+          "name": "Heliopolis",
+          "charOffset": 2490
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 2632
+        },
+        {
+          "placeId": "727117",
+          "name": "Heliopolis",
+          "charOffset": 2659
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 2709
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 3044
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 3388
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 3603
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 3915
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 3965
+        },
+        {
+          "placeId": "736967",
+          "name": "lake Moeris",
+          "charOffset": 4081
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 4358
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 4605
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "places": [
+        {
+          "placeId": "688025",
+          "name": "Serbonian marsh",
+          "charOffset": 5010
+        },
+        {
+          "placeId": "687872",
+          "name": "Casian mountain",
+          "charOffset": 5046
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian measure",
+          "charOffset": 5370
+        },
+        {
+          "placeId": "727117",
+          "name": "Heliopolis",
+          "charOffset": 5532
+        },
+        {
+          "placeId": "727117",
+          "name": "Heliopolis",
+          "charOffset": 5617
+        },
+        {
+          "placeId": "570612",
+          "name": "Pisa",
+          "charOffset": 5744
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 5902
+        },
+        {
+          "placeId": "570612",
+          "name": "Pisa",
+          "charOffset": 5912
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "places": [
+        {
+          "placeId": "727117",
+          "name": "Heliopolis",
+          "charOffset": 6001
+        },
+        {
+          "placeId": "727117",
+          "name": "Heliopolis",
+          "charOffset": 6034
+        },
+        {
+          "placeId": "756537",
+          "name": "Arabia",
+          "charOffset": 6124
+        },
+        {
+          "placeId": "29713",
+          "name": "Red Sea",
+          "charOffset": 6206
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 6297
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "places": [
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 6576
+        },
+        {
+          "placeId": "756537",
+          "name": "Arabian",
+          "charOffset": 6738
+        },
+        {
+          "placeId": "727117",
+          "name": "Heliopolis",
+          "charOffset": 6783
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 6825
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 7141
+        },
+        {
+          "placeId": "727117",
+          "name": "Heliopolis",
+          "charOffset": 7214
+        },
+        {
+          "placeId": "786131",
+          "name": "Thebes",
+          "charOffset": 7228
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 7399
+        },
+        {
+          "placeId": "541138",
+          "name": "Thebes",
+          "charOffset": 7516
+        },
+        {
+          "placeId": "541138",
+          "name": "Thebes",
+          "charOffset": 7579
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 7606
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 7761
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 7886
+        },
+        {
+          "placeId": "550595",
+          "name": "Ilion",
+          "charOffset": 7995
+        },
+        {
+          "placeId": "550916",
+          "name": "Teuthrania",
+          "charOffset": 8005
+        },
+        {
+          "placeId": "599612",
+          "name": "Ephesus",
+          "charOffset": 8020
+        },
+        {
+          "placeId": "599777",
+          "name": "Maeander",
+          "charOffset": 8049
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 8257
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 8271
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 8346
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "places": [
+        {
+          "placeId": "530768",
+          "name": "Achelous",
+          "charOffset": 8443
+        },
+        {
+          "placeId": "530767",
+          "name": "Acarnania",
+          "charOffset": 8476
+        },
+        {
+          "placeId": "530852",
+          "name": "Echinades Islands",
+          "charOffset": 8542
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabia",
+          "charOffset": 8582
+        },
+        {
+          "placeId": "39290",
+          "name": "Red",
+          "charOffset": 8663
+        },
+        {
+          "placeId": "39274",
+          "name": "Aethiopia",
+          "charOffset": 9041
+        },
+        {
+          "placeId": "29713",
+          "name": "Arabian gulf",
+          "charOffset": 9071
+        },
+        {
+          "placeId": "1306",
+          "name": "Syria",
+          "charOffset": 9140
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 9279
+        },
+        {
+          "placeId": "29713",
+          "name": "Arabian gulf",
+          "charOffset": 9325
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 9973
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 10002
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabia",
+          "charOffset": 10070
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 10081
+        },
+        {
+          "placeId": "1306",
+          "name": "Syria",
+          "charOffset": 10102
+        },
+        {
+          "placeId": "1306",
+          "name": "Syrians",
+          "charOffset": 10113
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabia",
+          "charOffset": 10145
+        },
+        {
+          "placeId": "39274",
+          "name": "Aethiopia",
+          "charOffset": 10256
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "places": [
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 10300
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabia",
+          "charOffset": 10340
+        },
+        {
+          "placeId": "1306",
+          "name": "Syria",
+          "charOffset": 10351
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 10556
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 10777
+        },
+        {
+          "placeId": "736967",
+          "name": "lake Moeris",
+          "charOffset": 10835
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 10981
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 11516
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 11601
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 11669
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 11781
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 11979
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 12451
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "places": [
+        {
+          "placeId": "727193",
+          "name": "Watchtower of Perseus",
+          "charOffset": 12547
+        },
+        {
+          "placeId": "727192",
+          "name": "Pelusium",
+          "charOffset": 12602
+        },
+        {
+          "placeId": "727142",
+          "name": "Cercasorus",
+          "charOffset": 12660
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 12684
+        },
+        {
+          "placeId": "727192",
+          "name": "Pelusium",
+          "charOffset": 12710
+        },
+        {
+          "placeId": "727097",
+          "name": "Canobus",
+          "charOffset": 12723
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 12773
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabia",
+          "charOffset": 12790
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 12872
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 12917
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 13270
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 13331
+        },
+        {
+          "placeId": "786017",
+          "name": "Theban district",
+          "charOffset": 13542
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 13645
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 13702
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 13916
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 14022
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 14054
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 14100
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 14111
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 14194
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 14219
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 14338
+        },
+        {
+          "placeId": "658440",
+          "name": "Cilicia",
+          "charOffset": 14357
+        },
+        {
+          "placeId": "29492",
+          "name": "Assyria",
+          "charOffset": 14369
+        },
+        {
+          "placeId": "658440",
+          "name": "Cilicians",
+          "charOffset": 14408
+        },
+        {
+          "placeId": "29492",
+          "name": "Assyrians",
+          "charOffset": 14422
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "places": [
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 14500
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 14532
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 14612
+        },
+        {
+          "placeId": "hestia-cataracts",
+          "name": "Cataracts",
+          "charOffset": 14638
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 14664
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 14755
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 14796
+        },
+        {
+          "placeId": "hestia-cataracts",
+          "name": "Cataracts",
+          "charOffset": 14821
+        },
+        {
+          "placeId": "727142",
+          "name": "Cercasorus",
+          "charOffset": 14909
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 14924
+        },
+        {
+          "placeId": "727192",
+          "name": "Pelusian",
+          "charOffset": 15025
+        },
+        {
+          "placeId": "727137",
+          "name": "Canobic mouth",
+          "charOffset": 15094
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 15139
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "places": [
+        {
+          "placeId": "727224",
+          "name": "Sebennytic mouth",
+          "charOffset": 15369
+        },
+        {
+          "placeId": "727224",
+          "name": "Sebennytic",
+          "charOffset": 15454
+        },
+        {
+          "placeId": "727138",
+          "name": "Sa\u00eftic",
+          "charOffset": 15504
+        },
+        {
+          "placeId": "727157",
+          "name": "Mendesian",
+          "charOffset": 15519
+        },
+        {
+          "placeId": "727085",
+          "name": "Bolbitine",
+          "charOffset": 15538
+        },
+        {
+          "placeId": "716520",
+          "name": "oracle of Ammon",
+          "charOffset": 15628
+        },
+        {
+          "placeId": "716526",
+          "name": "Apis",
+          "charOffset": 15846
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 15867
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 15886
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyans",
+          "charOffset": 15920
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 15936
+        },
+        {
+          "placeId": "716520",
+          "name": "Ammon",
+          "charOffset": 16042
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 16092
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 16307
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 16380
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 16425
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 16485
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyan",
+          "charOffset": 16561
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabian",
+          "charOffset": 16572
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 16826
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 17123
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 17182
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 17637
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 17739
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 17908
+        },
+        {
+          "placeId": "1306",
+          "name": "Syria",
+          "charOffset": 18009
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 18027
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 18067
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 18451
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 18503
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 18530
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "places": [
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 18859
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 18869
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "places": [
+        {
+          "placeId": "1273",
+          "name": "Scythia",
+          "charOffset": 19287
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 19373
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 19810
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 19946
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 20248
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 20816
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 21256
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "places": [
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 21791
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 22153
+        },
+        {
+          "placeId": "226577",
+          "name": "Ister",
+          "charOffset": 22245
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 22273
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 22555
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 22592
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyan",
+          "charOffset": 22602
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 22705
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 22722
+        },
+        {
+          "placeId": "786123",
+          "name": "Syene",
+          "charOffset": 22842
+        },
+        {
+          "placeId": "786017",
+          "name": "Thebaid",
+          "charOffset": 22855
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 22867
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 22980
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 23109
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 23743
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 23823
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 24104
+        },
+        {
+          "placeId": "599777",
+          "name": "Maeander",
+          "charOffset": 24136
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 24286
+        },
+        {
+          "placeId": "795866",
+          "name": "Takhompso",
+          "charOffset": 24299
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 24332
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopians",
+          "charOffset": 24374
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopians",
+          "charOffset": 24420
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 24441
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopians",
+          "charOffset": 24514
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 24577
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 24729
+        },
+        {
+          "placeId": "805630",
+          "name": "Meroe",
+          "charOffset": 24931
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 24977
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 25325
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 25360
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopians",
+          "charOffset": 25580
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 25623
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 25732
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 25751
+        },
+        {
+          "placeId": "727103",
+          "name": "Daphnae",
+          "charOffset": 25764
+        },
+        {
+          "placeId": "727192",
+          "name": "Pelusium",
+          "charOffset": 25775
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "places": [
+        {
+          "placeId": "29475",
+          "name": "Arabia",
+          "charOffset": 25791
+        },
+        {
+          "placeId": "29492",
+          "name": "Assyria",
+          "charOffset": 25802
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 25831
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 25867
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian guards",
+          "charOffset": 25950
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 25968
+        },
+        {
+          "placeId": "727103",
+          "name": "Daphnae",
+          "charOffset": 25987
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 26004
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 26166
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "places": [
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 26498
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopians",
+          "charOffset": 26627
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopians",
+          "charOffset": 26693
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 26717
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 26791
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 26895
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 27018
+        },
+        {
+          "placeId": "373778",
+          "name": "Cyrene",
+          "charOffset": 27263
+        },
+        {
+          "placeId": "716520",
+          "name": "oracle of Ammon",
+          "charOffset": 27309
+        },
+        {
+          "placeId": "716520",
+          "name": "Ammon",
+          "charOffset": 27373
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 27444
+        },
+        {
+          "placeId": "373861",
+          "name": "Nasamonians",
+          "charOffset": 27548
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyan people",
+          "charOffset": 27577
+        },
+        {
+          "placeId": "344491",
+          "name": "Syrtis",
+          "charOffset": 27622
+        },
+        {
+          "placeId": "344491",
+          "name": "Syrtis",
+          "charOffset": 27665
+        },
+        {
+          "placeId": "373861",
+          "name": "Nasamonians",
+          "charOffset": 27688
+        },
+        {
+          "placeId": "736954",
+          "name": "Libyan desert",
+          "charOffset": 27768
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 27997
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 28141
+        },
+        {
+          "placeId": "275724",
+          "name": "Soloeis",
+          "charOffset": 28187
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 28216
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyans",
+          "charOffset": 28261
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 28326
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 28353
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "places": [
+        {
+          "placeId": "373861",
+          "name": "Nasamonians",
+          "charOffset": 29056
+        },
+        {
+          "placeId": "373861",
+          "name": "Nasamonians",
+          "charOffset": 29146
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "places": [
+        {
+          "placeId": "716520",
+          "name": "Ammonian",
+          "charOffset": 29477
+        },
+        {
+          "placeId": "373861",
+          "name": "Nasamonians",
+          "charOffset": 29511
+        },
+        {
+          "placeId": "373778",
+          "name": "Cyrene",
+          "charOffset": 29547
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 29703
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 29744
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 29760
+        },
+        {
+          "placeId": "226577",
+          "name": "Ister",
+          "charOffset": 29914
+        },
+        {
+          "placeId": "226577",
+          "name": "Ister",
+          "charOffset": 29935
+        },
+        {
+          "placeId": "hestia-pyrene",
+          "name": "Pyrene",
+          "charOffset": 29990
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "places": [
+        {
+          "placeId": "226577",
+          "name": "Ister",
+          "charOffset": 30185
+        },
+        {
+          "placeId": "1224",
+          "name": "Euxine sea",
+          "charOffset": 30251
+        },
+        {
+          "placeId": "216839",
+          "name": "Istria",
+          "charOffset": 30266
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesian colonists",
+          "charOffset": 30296
+        },
+        {
+          "placeId": "226577",
+          "name": "Ister",
+          "charOffset": 30325
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 30444
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 30454
+        },
+        {
+          "placeId": "658440",
+          "name": "Cilicia",
+          "charOffset": 30672
+        },
+        {
+          "placeId": "857321",
+          "name": "Sinope",
+          "charOffset": 30760
+        },
+        {
+          "placeId": "1224",
+          "name": "Euxine",
+          "charOffset": 30774
+        },
+        {
+          "placeId": "857321",
+          "name": "Sinope",
+          "charOffset": 30786
+        },
+        {
+          "placeId": "226577",
+          "name": "Ister",
+          "charOffset": 30827
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 30886
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 30914
+        },
+        {
+          "placeId": "226577",
+          "name": "Ister",
+          "charOffset": 30949
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 31010
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 31219
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 31570
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 32331
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 32430
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 32587
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 32750
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 32990
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 33052
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 34273
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 36173
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 36241
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 37129
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 37414
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian man",
+          "charOffset": 37455
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "places": [
+        {
+          "placeId": "727206",
+          "name": "Prosopitis",
+          "charOffset": 37946
+        },
+        {
+          "placeId": "727206",
+          "name": "Prosopitis",
+          "charOffset": 38047
+        },
+        {
+          "placeId": "786017",
+          "name": "Thebes",
+          "charOffset": 38532
+        },
+        {
+          "placeId": "786017",
+          "name": "Theban district",
+          "charOffset": 38553
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 38650
+        },
+        {
+          "placeId": "727156",
+          "name": "Mendes",
+          "charOffset": 38782
+        },
+        {
+          "placeId": "727159",
+          "name": "Mendesian district",
+          "charOffset": 38805
+        },
+        {
+          "placeId": "786017",
+          "name": "Thebans",
+          "charOffset": 38875
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 39275
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 39335
+        },
+        {
+          "placeId": "716520",
+          "name": "Ammonians",
+          "charOffset": 39365
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 39399
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 39409
+        },
+        {
+          "placeId": "716520",
+          "name": "Ammonians",
+          "charOffset": 39524
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 39563
+        },
+        {
+          "placeId": "786017",
+          "name": "Thebans",
+          "charOffset": 39595
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 40251
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 40435
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 40472
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 40578
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 40902
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 40981
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 40995
+        },
+        {
+          "placeId": "678437",
+          "name": "Tyre",
+          "charOffset": 41286
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicia",
+          "charOffset": 41294
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "places": [
+        {
+          "placeId": "678437",
+          "name": "Tyre",
+          "charOffset": 41771
+        },
+        {
+          "placeId": "678437",
+          "name": "Tyre",
+          "charOffset": 41851
+        },
+        {
+          "placeId": "501635",
+          "name": "Thasian Heracles",
+          "charOffset": 41898
+        },
+        {
+          "placeId": "501635",
+          "name": "Thasos",
+          "charOffset": 41935
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 41996
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 42696
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 43028
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 43428
+        },
+        {
+          "placeId": "727156",
+          "name": "Mendesians",
+          "charOffset": 43500
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "places": [
+        {
+          "placeId": "727156",
+          "name": "Mendesians",
+          "charOffset": 43839
+        },
+        {
+          "placeId": "727159",
+          "name": "Mendesian district",
+          "charOffset": 44070
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian language",
+          "charOffset": 44101
+        },
+        {
+          "placeId": "727156",
+          "name": "Mendes",
+          "charOffset": 44119
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 44336
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 44394
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 44548
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian temple",
+          "charOffset": 44603
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 44769
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 44970
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 45836
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 47310
+        },
+        {
+          "placeId": "678437",
+          "name": "Tyre",
+          "charOffset": 47457
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicia",
+          "charOffset": 47498
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotia",
+          "charOffset": 47531
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 47924
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 47951
+        },
+        {
+          "placeId": "570102",
+          "name": "Pelasgians",
+          "charOffset": 48055
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyans",
+          "charOffset": 48128
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyans",
+          "charOffset": 48166
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 48278
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 48450
+        },
+        {
+          "placeId": "570102",
+          "name": "Pelasgians",
+          "charOffset": 48552
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 48578
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 48667
+        },
+        {
+          "placeId": "570102",
+          "name": "Pelasgians",
+          "charOffset": 48722
+        },
+        {
+          "placeId": "540844",
+          "name": "Cabeiri",
+          "charOffset": 48863
+        },
+        {
+          "placeId": "501597",
+          "name": "Samothracians",
+          "charOffset": 48882
+        },
+        {
+          "placeId": "570102",
+          "name": "Pelasgians",
+          "charOffset": 48913
+        },
+        {
+          "placeId": "501597",
+          "name": "Samothrace",
+          "charOffset": 48978
+        },
+        {
+          "placeId": "570102",
+          "name": "Pelasgians",
+          "charOffset": 49021
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 49059
+        },
+        {
+          "placeId": "501597",
+          "name": "Samothracians",
+          "charOffset": 49099
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 49139
+        },
+        {
+          "placeId": "570102",
+          "name": "Pelasgians",
+          "charOffset": 49246
+        },
+        {
+          "placeId": "570102",
+          "name": "Pelasgians",
+          "charOffset": 49274
+        },
+        {
+          "placeId": "501597",
+          "name": "Samothracian mysteries",
+          "charOffset": 49350
+        },
+        {
+          "placeId": "570102",
+          "name": "Pelasgians",
+          "charOffset": 49418
+        },
+        {
+          "placeId": "530843",
+          "name": "Dodona",
+          "charOffset": 49524
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "places": [
+        {
+          "placeId": "530843",
+          "name": "Dodona",
+          "charOffset": 49884
+        },
+        {
+          "placeId": "570102",
+          "name": "Pelasgians",
+          "charOffset": 50021
+        },
+        {
+          "placeId": "530843",
+          "name": "Dodona",
+          "charOffset": 50048
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "places": [
+        {
+          "placeId": "570102",
+          "name": "Pelasgians",
+          "charOffset": 50285
+        },
+        {
+          "placeId": "530843",
+          "name": "Dodona",
+          "charOffset": 50897
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "places": [
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 51044
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 51055
+        },
+        {
+          "placeId": "786131",
+          "name": "Thebes",
+          "charOffset": 51116
+        },
+        {
+          "placeId": "786131",
+          "name": "Thebes",
+          "charOffset": 51179
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 51189
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 51259
+        },
+        {
+          "placeId": "786017",
+          "name": "Theban priests",
+          "charOffset": 51679
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "places": [
+        {
+          "placeId": "530843",
+          "name": "Dodona",
+          "charOffset": 51733
+        },
+        {
+          "placeId": "786131",
+          "name": "Thebes",
+          "charOffset": 51787
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 51811
+        },
+        {
+          "placeId": "530843",
+          "name": "Dodona",
+          "charOffset": 51828
+        },
+        {
+          "placeId": "530843",
+          "name": "Dodona",
+          "charOffset": 51988
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 52109
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyans",
+          "charOffset": 52124
+        },
+        {
+          "placeId": "716520",
+          "name": "oracle of Ammon",
+          "charOffset": 52154
+        },
+        {
+          "placeId": "530843",
+          "name": "Dodonaean priestesses",
+          "charOffset": 52231
+        },
+        {
+          "placeId": "530843",
+          "name": "Dodona",
+          "charOffset": 52382
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "places": [
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 52461
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 52529
+        },
+        {
+          "placeId": "geonames-255638",
+          "name": "Pelasgia",
+          "charOffset": 52658
+        },
+        {
+          "placeId": "541138",
+          "name": "Thebes",
+          "charOffset": 52869
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 53075
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 53093
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "places": [
+        {
+          "placeId": "530843",
+          "name": "Dodona",
+          "charOffset": 53187
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 53601
+        },
+        {
+          "placeId": "786131",
+          "name": "Thebes",
+          "charOffset": 53648
+        },
+        {
+          "placeId": "530843",
+          "name": "Dodona",
+          "charOffset": 53671
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 53821
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptian ceremonies",
+          "charOffset": 53991
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 54085
+        },
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 54257
+        },
+        {
+          "placeId": "756543",
+          "name": "Busiris",
+          "charOffset": 54311
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 54498
+        },
+        {
+          "placeId": "727117",
+          "name": "Heliopolis",
+          "charOffset": 54564
+        },
+        {
+          "placeId": "727095",
+          "name": "Buto",
+          "charOffset": 54597
+        },
+        {
+          "placeId": "727185",
+          "name": "Papremis",
+          "charOffset": 54628
+        },
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 54679
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "places": [
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 54938
+        },
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 55267
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "places": [
+        {
+          "placeId": "756543",
+          "name": "Busiris",
+          "charOffset": 55627
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 55786
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 55941
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 55979
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 56203
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 56343
+        },
+        {
+          "placeId": "727117",
+          "name": "Heliopolis",
+          "charOffset": 56470
+        },
+        {
+          "placeId": "727095",
+          "name": "Buto",
+          "charOffset": 56485
+        },
+        {
+          "placeId": "727185",
+          "name": "Papremis",
+          "charOffset": 56521
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 57415
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 57958
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 58196
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 58526
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 58654
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 60404
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 60625
+        },
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 60855
+        },
+        {
+          "placeId": "727095",
+          "name": "Buto",
+          "charOffset": 61054
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 62605
+        },
+        {
+          "placeId": "786017",
+          "name": "Thebes",
+          "charOffset": 62705
+        },
+        {
+          "placeId": "736967",
+          "name": "lake Moeris",
+          "charOffset": 62716
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "places": [
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 63088
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 63150
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 63207
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "places": [
+        {
+          "placeId": "727185",
+          "name": "Papremis",
+          "charOffset": 63954
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 64302
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 64495
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 64645
+        },
+        {
+          "placeId": "727117",
+          "name": "Heliopolis",
+          "charOffset": 64697
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabia",
+          "charOffset": 64989
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 65509
+        },
+        {
+          "placeId": "786017",
+          "name": "Thebes",
+          "charOffset": 65564
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabia",
+          "charOffset": 65794
+        },
+        {
+          "placeId": "727095",
+          "name": "Buto",
+          "charOffset": 65826
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "places": [
+        {
+          "placeId": "29475",
+          "name": "Arabia",
+          "charOffset": 66196
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabians",
+          "charOffset": 66327
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 66380
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 66416
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 67156
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 67619
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyans",
+          "charOffset": 67672
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 68220
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicia",
+          "charOffset": 68768
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 68782
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 68994
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 69063
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 69107
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 69229
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 69371
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 69410
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 69967
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 70160
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "places": [
+        {
+          "placeId": "727095",
+          "name": "Buto",
+          "charOffset": 70862
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "places": [
+        {
+          "placeId": "39274",
+          "name": "Ethiopian stone",
+          "charOffset": 72550
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 73068
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 74678
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 75085
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 75111
+        },
+        {
+          "placeId": "756613",
+          "name": "Khemmis",
+          "charOffset": 75282
+        },
+        {
+          "placeId": "786017",
+          "name": "Theban district",
+          "charOffset": 75298
+        },
+        {
+          "placeId": "756613",
+          "name": "Khemmis",
+          "charOffset": 75614
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 75813
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greek",
+          "charOffset": 75897
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 76101
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "places": [
+        {
+          "placeId": "geonames-390903",
+          "name": "Greece",
+          "charOffset": 76231
+        },
+        {
+          "placeId": "756613",
+          "name": "Khemmis",
+          "charOffset": 76247
+        },
+        {
+          "placeId": "756613",
+          "name": "Khemmis",
+          "charOffset": 76337
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 76367
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greeks",
+          "charOffset": 76403
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 76458
+        },
+        {
+          "placeId": "756613",
+          "name": "Khemmis",
+          "charOffset": 76531
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 76573
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 76680
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 76791
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 76999
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 79100
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 79384
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 79641
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "places": [
+        {
+          "placeId": "373778",
+          "name": "Cyrene",
+          "charOffset": 80806
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 81957
+        },
+        {
+          "placeId": "560221",
+          "name": "Aegean",
+          "charOffset": 82065
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "places": [
+        {
+          "placeId": "727169",
+          "name": "Naucratis",
+          "charOffset": 82286
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 82299
+        },
+        {
+          "placeId": "727142",
+          "name": "Cercasorus",
+          "charOffset": 82427
+        },
+        {
+          "placeId": "727097",
+          "name": "Canobus",
+          "charOffset": 82472
+        },
+        {
+          "placeId": "727169",
+          "name": "Naucratis",
+          "charOffset": 82483
+        },
+        {
+          "placeId": "727073",
+          "name": "Anthylla",
+          "charOffset": 82539
+        },
+        {
+          "placeId": "727076",
+          "name": "Arkhandrus' town",
+          "charOffset": 82573
+        },
+        {
+          "placeId": "727073",
+          "name": "Anthylla",
+          "charOffset": 82596
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "places": [
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 82776
+        },
+        {
+          "placeId": "981502",
+          "name": "Achaean",
+          "charOffset": 82868
+        },
+        {
+          "placeId": "727076",
+          "name": "Arkhandrus' town",
+          "charOffset": 82920
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 83003
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian chronicles",
+          "charOffset": 83125
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 83278
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 83313
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 83330
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyan",
+          "charOffset": 83409
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 83511
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 83685
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 83810
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 83857
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "places": [
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 84028
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 84046
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 84081
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 84167
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopian kings",
+          "charOffset": 84440
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian men",
+          "charOffset": 84513
+        },
+        {
+          "placeId": "893951",
+          "name": "Babylonian princess",
+          "charOffset": 84581
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 84655
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 84748
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 84959
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "places": [
+        {
+          "placeId": "29713",
+          "name": "Arabian Gulf",
+          "charOffset": 85929
+        },
+        {
+          "placeId": "39290",
+          "name": "Red Sea",
+          "charOffset": 85981
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "places": [
+        {
+          "placeId": "1273",
+          "name": "Scythians",
+          "charOffset": 86838
+        },
+        {
+          "placeId": "1001889",
+          "name": "Thracians",
+          "charOffset": 86852
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian army",
+          "charOffset": 86901
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "places": [
+        {
+          "placeId": "857276",
+          "name": "Phasis",
+          "charOffset": 87076
+        },
+        {
+          "placeId": "857276",
+          "name": "Phasis",
+          "charOffset": 87323
+        },
+        {
+          "placeId": "863770",
+          "name": "Colchians",
+          "charOffset": 87369
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 87383
+        },
+        {
+          "placeId": "863770",
+          "name": "Colchians",
+          "charOffset": 87516
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 87541
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 87567
+        },
+        {
+          "placeId": "863770",
+          "name": "Colchians",
+          "charOffset": 87592
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 87611
+        },
+        {
+          "placeId": "863770",
+          "name": "Colchians",
+          "charOffset": 87651
+        },
+        {
+          "placeId": "863770",
+          "name": "Colchians",
+          "charOffset": 87865
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 87879
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopians",
+          "charOffset": 87893
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 87982
+        },
+        {
+          "placeId": "1306",
+          "name": "Syrians",
+          "charOffset": 88002
+        },
+        {
+          "placeId": "1001940",
+          "name": "Palestine",
+          "charOffset": 88013
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 88073
+        },
+        {
+          "placeId": "1306",
+          "name": "Syrians",
+          "charOffset": 88092
+        },
+        {
+          "placeId": "857352",
+          "name": "Thermodon",
+          "charOffset": 88122
+        },
+        {
+          "placeId": "845036",
+          "name": "Parthenius",
+          "charOffset": 88140
+        },
+        {
+          "placeId": "857224",
+          "name": "Macrones",
+          "charOffset": 88183
+        },
+        {
+          "placeId": "863770",
+          "name": "Colchians",
+          "charOffset": 88234
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 88329
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 88358
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopians",
+          "charOffset": 88372
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 88539
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 88586
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 88643
+        },
+        {
+          "placeId": "863770",
+          "name": "Colchians",
+          "charOffset": 88747
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 88785
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 88809
+        },
+        {
+          "placeId": "863770",
+          "name": "Colchian",
+          "charOffset": 88994
+        },
+        {
+          "placeId": "472014",
+          "name": "Sardonian",
+          "charOffset": 89032
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 89068
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 89084
+        },
+        {
+          "placeId": "1001940",
+          "name": "Palestine",
+          "charOffset": 89242
+        },
+        {
+          "placeId": "1306",
+          "name": "Syria",
+          "charOffset": 89264
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 89360
+        },
+        {
+          "placeId": "599612",
+          "name": "Ephesus",
+          "charOffset": 89429
+        },
+        {
+          "placeId": "550823",
+          "name": "Phocaea",
+          "charOffset": 89440
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 89476
+        },
+        {
+          "placeId": "550893",
+          "name": "Smyrna",
+          "charOffset": 89486
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 89664
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopian",
+          "charOffset": 89677
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian sacred characters",
+          "charOffset": 89772
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 90085
+        },
+        {
+          "placeId": "727103",
+          "name": "Daphnae",
+          "charOffset": 90134
+        },
+        {
+          "placeId": "727192",
+          "name": "Pelusium",
+          "charOffset": 90145
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 90284
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 91238
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 91428
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 91466
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 91689
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptian king",
+          "charOffset": 92336
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 92365
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 92594
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 92759
+        },
+        {
+          "placeId": "1273",
+          "name": "Scythians",
+          "charOffset": 92812
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "places": [
+        {
+          "placeId": "1273",
+          "name": "Scythia",
+          "charOffset": 92917
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 93299
+        },
+        {
+          "placeId": "727095",
+          "name": "Buto",
+          "charOffset": 93722
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "places": [
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 94750
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 94876
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 94949
+        },
+        {
+          "placeId": "678437",
+          "name": "Tyre",
+          "charOffset": 94964
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "places": [
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 95481
+        },
+        {
+          "placeId": "560221",
+          "name": "Aegean",
+          "charOffset": 95565
+        },
+        {
+          "placeId": "727067",
+          "name": "Egyptian sea",
+          "charOffset": 95595
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 95664
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 95691
+        },
+        {
+          "placeId": "211425281",
+          "name": "Canopic mouth",
+          "charOffset": 95707
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "places": [
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 96455
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "places": [
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 97089
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "places": [
+        {
+          "placeId": "geonames-268064",
+          "name": "Sidon",
+          "charOffset": 98874
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicia",
+          "charOffset": 98883
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "places": [
+        {
+          "placeId": "geonames-268064",
+          "name": "Sidon",
+          "charOffset": 99042
+        },
+        {
+          "placeId": "geonames-268064",
+          "name": "Sidon",
+          "charOffset": 99094
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 99357
+        },
+        {
+          "placeId": "1306",
+          "name": "Syria",
+          "charOffset": 99749
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 99781
+        },
+        {
+          "placeId": "geonames-268064",
+          "name": "Sidon",
+          "charOffset": 99802
+        },
+        {
+          "placeId": "1306",
+          "name": "Syria",
+          "charOffset": 99826
+        },
+        {
+          "placeId": "550595",
+          "name": "Ilion",
+          "charOffset": 100011
+        },
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 100047
+        },
+        {
+          "placeId": "550595",
+          "name": "Troy",
+          "charOffset": 100293
+        },
+        {
+          "placeId": "550595",
+          "name": "Trojan land",
+          "charOffset": 100478
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "places": [
+        {
+          "placeId": "550595",
+          "name": "Ilion",
+          "charOffset": 100582
+        },
+        {
+          "placeId": "550595",
+          "name": "Trojans",
+          "charOffset": 100841
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 101055
+        },
+        {
+          "placeId": "550595",
+          "name": "Trojans",
+          "charOffset": 101107
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "places": [
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 101410
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 101645
+        },
+        {
+          "placeId": "991375",
+          "name": "Libya",
+          "charOffset": 101919
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 101978
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 102147
+        },
+        {
+          "placeId": "550595",
+          "name": "Ilion",
+          "charOffset": 102260
+        },
+        {
+          "placeId": "550595",
+          "name": "Trojans",
+          "charOffset": 102643
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "places": [
+        {
+          "placeId": "550595",
+          "name": "Trojans",
+          "charOffset": 103399
+        },
+        {
+          "placeId": "550595",
+          "name": "Trojans",
+          "charOffset": 103603
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 104029
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 110089
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 110160
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 110461
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian stories",
+          "charOffset": 111044
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 111198
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 111283
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 112080
+        },
+        {
+          "placeId": "736891",
+          "name": "Arabian mountains",
+          "charOffset": 112185
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 112210
+        },
+        {
+          "placeId": "736954",
+          "name": "Libyan",
+          "charOffset": 112346
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 113046
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptian characters",
+          "charOffset": 114159
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 115162
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 115486
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "places": [
+        {
+          "placeId": "39274",
+          "name": "Ethiopian stone",
+          "charOffset": 115793
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "places": [
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 117246
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 117494
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 118658
+        },
+        {
+          "placeId": "727095",
+          "name": "Buto",
+          "charOffset": 119005
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "places": [
+        {
+          "placeId": "39274",
+          "name": "Ethiopian stone",
+          "charOffset": 120237
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "places": [
+        {
+          "placeId": "1001889",
+          "name": "Thracian",
+          "charOffset": 120728
+        },
+        {
+          "placeId": "599926",
+          "name": "Samian",
+          "charOffset": 120795
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 120932
+        },
+        {
+          "placeId": "599926",
+          "name": "Samos",
+          "charOffset": 121227
+        },
+        {
+          "placeId": "550763",
+          "name": "Mytilene",
+          "charOffset": 121299
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greece",
+          "charOffset": 121739
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 121853
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 122038
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "places": [
+        {
+          "placeId": "550497",
+          "name": "Chians",
+          "charOffset": 122110
+        },
+        {
+          "placeId": "727169",
+          "name": "Naucratis",
+          "charOffset": 122174
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greece",
+          "charOffset": 122384
+        },
+        {
+          "placeId": "550763",
+          "name": "Mytilene",
+          "charOffset": 122494
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 122991
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 123449
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 123948
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopians",
+          "charOffset": 123977
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopian",
+          "charOffset": 124038
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 124170
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "places": [
+        {
+          "placeId": "39274",
+          "name": "Ethiopian",
+          "charOffset": 124510
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 124541
+        },
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 124580
+        },
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 124646
+        },
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 124776
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 124949
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "places": [
+        {
+          "placeId": "39274",
+          "name": "Ethiopian",
+          "charOffset": 125948
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "places": [
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 126480
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 126727
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopian",
+          "charOffset": 126769
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 126955
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopian",
+          "charOffset": 127004
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 127450
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 127702
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabians",
+          "charOffset": 127731
+        },
+        {
+          "placeId": "29492",
+          "name": "Assyrians",
+          "charOffset": 127744
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 127767
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabia",
+          "charOffset": 128122
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 128228
+        },
+        {
+          "placeId": "727192",
+          "name": "Pelusium",
+          "charOffset": 128269
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 128305
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptian king",
+          "charOffset": 128665
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 128841
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 129572
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 129752
+        },
+        {
+          "placeId": "786131",
+          "name": "Thebes",
+          "charOffset": 129927
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 132119
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 132158
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "places": [
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 133193
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 133521
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 133592
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 133723
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 133807
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 134308
+        },
+        {
+          "placeId": "736967",
+          "name": "lake Moeris",
+          "charOffset": 134455
+        },
+        {
+          "placeId": "786055",
+          "name": "City of Crocodiles",
+          "charOffset": 134497
+        },
+        {
+          "placeId": "599612",
+          "name": "Ephesus",
+          "charOffset": 134749
+        },
+        {
+          "placeId": "599926",
+          "name": "Samos",
+          "charOffset": 134772
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian caretakers",
+          "charOffset": 135374
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "places": [
+        {
+          "placeId": "736967",
+          "name": "lake Moeris",
+          "charOffset": 136355
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "places": [
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 137172
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyan",
+          "charOffset": 137503
+        },
+        {
+          "placeId": "344491",
+          "name": "Syrtis",
+          "charOffset": 137510
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 137565
+        },
+        {
+          "placeId": "29492",
+          "name": "Assyrian city",
+          "charOffset": 137928
+        },
+        {
+          "placeId": "874621",
+          "name": "Ninus",
+          "charOffset": 137945
+        },
+        {
+          "placeId": "874621",
+          "name": "Ninus",
+          "charOffset": 137978
+        },
+        {
+          "placeId": "912964",
+          "name": "Tigris",
+          "charOffset": 138236
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "places": [
+        {
+          "placeId": "874621",
+          "name": "Ninus",
+          "charOffset": 138260
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian lake",
+          "charOffset": 138354
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 138435
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 138483
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "places": [
+        {
+          "placeId": "1306",
+          "name": "Syria",
+          "charOffset": 139690
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopian",
+          "charOffset": 139732
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopian",
+          "charOffset": 139787
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 139845
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 139874
+        },
+        {
+          "placeId": "1306",
+          "name": "Syria",
+          "charOffset": 139901
+        },
+        {
+          "placeId": "727095",
+          "name": "Buto",
+          "charOffset": 140195
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 140237
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 140455
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 140467
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 140536
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 140599
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "places": [
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 140870
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 140882
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 141026
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "places": [
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 141158
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 141431
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 141443
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 141567
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian boys",
+          "charOffset": 141651
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian interpreters",
+          "charOffset": 141772
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 141803
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 141815
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 141904
+        },
+        {
+          "placeId": "727192",
+          "name": "Pelusian",
+          "charOffset": 141920
+        },
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 141961
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 142033
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 142069
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 142143
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 142259
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 142372
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 142384
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 142495
+        },
+        {
+          "placeId": "716520",
+          "name": "Egyptian oracle",
+          "charOffset": 142535
+        },
+        {
+          "placeId": "727225",
+          "name": "Sebennytic arm",
+          "charOffset": 142673
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 142695
+        },
+        {
+          "placeId": "727095",
+          "name": "Buto",
+          "charOffset": 142733
+        },
+        {
+          "placeId": "727095",
+          "name": "Buto",
+          "charOffset": 142816
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "places": [
+        {
+          "placeId": "756613",
+          "name": "Khemmis",
+          "charOffset": 143481
+        },
+        {
+          "placeId": "727095",
+          "name": "Buto",
+          "charOffset": 143547
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 143561
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 143918
+        },
+        {
+          "placeId": "727095",
+          "name": "Buto",
+          "charOffset": 144080
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 144406
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "places": [
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 144455
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "places": [
+        {
+          "placeId": "687843",
+          "name": "Azotus",
+          "charOffset": 144776
+        },
+        {
+          "placeId": "1306",
+          "name": "Syria",
+          "charOffset": 144800
+        },
+        {
+          "placeId": "687843",
+          "name": "Azotus",
+          "charOffset": 144838
+        },
+        {
+          "placeId": "39290",
+          "name": "Red Sea",
+          "charOffset": 145020
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 145064
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 145204
+        },
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 145245
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabian town",
+          "charOffset": 145261
+        },
+        {
+          "placeId": "727124",
+          "name": "Patumus",
+          "charOffset": 145277
+        },
+        {
+          "placeId": "39290",
+          "name": "Red Sea",
+          "charOffset": 145305
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian plain",
+          "charOffset": 145347
+        },
+        {
+          "placeId": "29475",
+          "name": "Arabia",
+          "charOffset": 145373
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 145410
+        },
+        {
+          "placeId": "29713",
+          "name": "Arabian Gulf",
+          "charOffset": 145667
+        },
+        {
+          "placeId": "39290",
+          "name": "Red Sea",
+          "charOffset": 145763
+        },
+        {
+          "placeId": "687872",
+          "name": "Casian promontory",
+          "charOffset": 145783
+        },
+        {
+          "placeId": "1306",
+          "name": "Syria",
+          "charOffset": 145833
+        },
+        {
+          "placeId": "29713",
+          "name": "Arabian Gulf",
+          "charOffset": 145847
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 146088
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 146221
+        },
+        {
+          "placeId": "29713",
+          "name": "Arabian Gulf",
+          "charOffset": 146430
+        },
+        {
+          "placeId": "39290",
+          "name": "Red Sea",
+          "charOffset": 146451
+        },
+        {
+          "placeId": "1306",
+          "name": "Syrians",
+          "charOffset": 146596
+        },
+        {
+          "placeId": "727152",
+          "name": "Magdolus",
+          "charOffset": 146607
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "places": [
+        {
+          "placeId": "1306",
+          "name": "Syrian city",
+          "charOffset": 146636
+        },
+        {
+          "placeId": "687902",
+          "name": "Cadytis",
+          "charOffset": 146651
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 146708
+        },
+        {
+          "placeId": "570221",
+          "name": "Elis",
+          "charOffset": 146958
+        },
+        {
+          "placeId": "570220",
+          "name": "Eleans",
+          "charOffset": 146968
+        },
+        {
+          "placeId": "570531",
+          "name": "Olympic games",
+          "charOffset": 147011
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 147100
+        },
+        {
+          "placeId": "570220",
+          "name": "Eleans",
+          "charOffset": 147177
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 147192
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 147253
+        },
+        {
+          "placeId": "570220",
+          "name": "Eleans",
+          "charOffset": 147326
+        },
+        {
+          "placeId": "570220",
+          "name": "Eleans",
+          "charOffset": 147392
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 147444
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 147493
+        },
+        {
+          "placeId": "570220",
+          "name": "Eleans",
+          "charOffset": 147535
+        },
+        {
+          "placeId": "570220",
+          "name": "Eleans",
+          "charOffset": 147595
+        },
+        {
+          "placeId": "570221",
+          "name": "Elis",
+          "charOffset": 147642
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 147688
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 147931
+        },
+        {
+          "placeId": "570220",
+          "name": "Eleans",
+          "charOffset": 148010
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 148047
+        },
+        {
+          "placeId": "570220",
+          "name": "Eleans",
+          "charOffset": 148064
+        },
+        {
+          "placeId": "39274",
+          "name": "Ethiopia",
+          "charOffset": 148136
+        },
+        {
+          "placeId": "geonames-268064",
+          "name": "Sidon",
+          "charOffset": 148399
+        },
+        {
+          "placeId": "678437",
+          "name": "Tyre",
+          "charOffset": 148440
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyan",
+          "charOffset": 148597
+        },
+        {
+          "placeId": "373778",
+          "name": "Cyrene",
+          "charOffset": 148664
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 148704
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 148934
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 149130
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 149188
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 149378
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 149489
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 150330
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 150586
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 150619
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 150631
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 150705
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 150778
+        },
+        {
+          "placeId": "727165",
+          "name": "Momemphis",
+          "charOffset": 150857
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 150922
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 151231
+        },
+        {
+          "placeId": "756543",
+          "name": "Busiris",
+          "charOffset": 151319
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 151328
+        },
+        {
+          "placeId": "756613",
+          "name": "Khemmis",
+          "charOffset": 151334
+        },
+        {
+          "placeId": "727185",
+          "name": "Papremis",
+          "charOffset": 151347
+        },
+        {
+          "placeId": "727206",
+          "name": "Prosopitis",
+          "charOffset": 151375
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "places": [
+        {
+          "placeId": "727168",
+          "name": "Natho",
+          "charOffset": 151399
+        },
+        {
+          "placeId": "786017",
+          "name": "Thebes",
+          "charOffset": 151642
+        },
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 151651
+        },
+        {
+          "placeId": "737069",
+          "name": "Tanis",
+          "charOffset": 151670
+        },
+        {
+          "placeId": "727156",
+          "name": "Mendes",
+          "charOffset": 151677
+        },
+        {
+          "placeId": "727227",
+          "name": "Sebennys",
+          "charOffset": 151685
+        },
+        {
+          "placeId": "727078",
+          "name": "Athribis",
+          "charOffset": 151695
+        },
+        {
+          "placeId": "727196",
+          "name": "Pharba\u00efthis",
+          "charOffset": 151705
+        },
+        {
+          "placeId": "727249",
+          "name": "Thmuis",
+          "charOffset": 151718
+        },
+        {
+          "placeId": "727180",
+          "name": "Onuphis",
+          "charOffset": 151726
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "places": [
+        {
+          "placeId": "727088",
+          "name": "Bubastis",
+          "charOffset": 151802
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 152053
+        },
+        {
+          "placeId": "1001889",
+          "name": "Thrace",
+          "charOffset": 152107
+        },
+        {
+          "placeId": "1273",
+          "name": "Scythia",
+          "charOffset": 152118
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persia",
+          "charOffset": 152130
+        },
+        {
+          "placeId": "550701",
+          "name": "Lydia",
+          "charOffset": 152141
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "places": [
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 152482
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinth",
+          "charOffset": 152529
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 152612
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian cubits",
+          "charOffset": 152770
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian cubit",
+          "charOffset": 152800
+        },
+        {
+          "placeId": "599926",
+          "name": "Samian",
+          "charOffset": 152834
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 153292
+        },
+        {
+          "placeId": "727165",
+          "name": "Momemphis",
+          "charOffset": 153322
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 153636
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 153820
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 154168
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "places": [
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 154601
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "places": [
+        {
+          "placeId": "599588",
+          "name": "Delos",
+          "charOffset": 154986
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 155115
+        },
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 155475
+        },
+        {
+          "placeId": "570106",
+          "name": "Pelasgian women",
+          "charOffset": 155502
+        },
+        {
+          "placeId": "570577",
+          "name": "Peloponnese",
+          "charOffset": 155554
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "places": [
+        {
+          "placeId": "570102",
+          "name": "Arcadians",
+          "charOffset": 155655
+        },
+        {
+          "placeId": "570577",
+          "name": "Peloponnesian people",
+          "charOffset": 155670
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 155841
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 155909
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 156305
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 156446
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 156538
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egyptians",
+          "charOffset": 157347
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "places": [
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 158881
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 159162
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 159205
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 159263
+        },
+        {
+          "placeId": "786021",
+          "name": "Elephantine",
+          "charOffset": 159334
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "places": [
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 160309
+        },
+        {
+          "placeId": "727217",
+          "name": "Sa\u00efs",
+          "charOffset": 160516
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "places": [
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 160583
+        },
+        {
+          "placeId": "736963",
+          "name": "Memphis",
+          "charOffset": 160670
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptian",
+          "charOffset": 160969
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 161161
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "places": [
+        {
+          "placeId": "981503",
+          "name": "Egypt",
+          "charOffset": 161188
+        },
+        {
+          "placeId": "727169",
+          "name": "Naucratis",
+          "charOffset": 161424
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionian cities",
+          "charOffset": 161733
+        },
+        {
+          "placeId": "550496",
+          "name": "Chios",
+          "charOffset": 161750
+        },
+        {
+          "placeId": "550913",
+          "name": "Teos",
+          "charOffset": 161757
+        },
+        {
+          "placeId": "550823",
+          "name": "Phocaea",
+          "charOffset": 161763
+        },
+        {
+          "placeId": "550650",
+          "name": "Clazomenae",
+          "charOffset": 161776
+        },
+        {
+          "placeId": "590030",
+          "name": "Rhodes",
+          "charOffset": 161809
+        },
+        {
+          "placeId": "599576",
+          "name": "Cnidus",
+          "charOffset": 161817
+        },
+        {
+          "placeId": "599636",
+          "name": "Halicarnassus",
+          "charOffset": 161825
+        },
+        {
+          "placeId": "639051",
+          "name": "Phaselis",
+          "charOffset": 161844
+        },
+        {
+          "placeId": "550406",
+          "name": "Aeolian city",
+          "charOffset": 161862
+        },
+        {
+          "placeId": "550763",
+          "name": "Mytilene",
+          "charOffset": 161876
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 162082
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "places": [
+        {
+          "placeId": "599926",
+          "name": "Samians",
+          "charOffset": 162154
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesians",
+          "charOffset": 162179
+        },
+        {
+          "placeId": "727169",
+          "name": "Naucratis",
+          "charOffset": 162207
+        },
+        {
+          "placeId": "727172",
+          "name": "Nile",
+          "charOffset": 162304
+        },
+        {
+          "placeId": "727137",
+          "name": "Canobic mouth",
+          "charOffset": 162404
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "places": [
+        {
+          "placeId": "727169",
+          "name": "Naucratis",
+          "charOffset": 162537
+        },
+        {
+          "placeId": "727169",
+          "name": "Naucratis",
+          "charOffset": 162567
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 162675
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 162761
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "places": [
+        {
+          "placeId": "373778",
+          "name": "Cyrene",
+          "charOffset": 163057
+        },
+        {
+          "placeId": "530835",
+          "name": "Corcyreans",
+          "charOffset": 163177
+        },
+        {
+          "placeId": "373778",
+          "name": "Cyrene",
+          "charOffset": 163931
+        },
+        {
+          "placeId": "373778",
+          "name": "Cyrene",
+          "charOffset": 164200
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "places": [
+        {
+          "placeId": "373778",
+          "name": "Cyrene",
+          "charOffset": 164351
+        },
+        {
+          "placeId": "373778",
+          "name": "Cyrene",
+          "charOffset": 164433
+        },
+        {
+          "placeId": "589913",
+          "name": "Lindus",
+          "charOffset": 164510
+        },
+        {
+          "placeId": "599926",
+          "name": "Samos",
+          "charOffset": 164587
+        },
+        {
+          "placeId": "599926",
+          "name": "Samos",
+          "charOffset": 164719
+        },
+        {
+          "placeId": "589913",
+          "name": "Lindus",
+          "charOffset": 164830
+        },
+        {
+          "placeId": "589913",
+          "name": "Lindus",
+          "charOffset": 164911
+        },
+        {
+          "placeId": "981503",
+          "name": "Egyptus",
+          "charOffset": 165031
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 165109
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5671 @@
+{
+  "id": 5,
+  "title": "Book 5: Terpsichore",
+  "chapters": [
+    {
+      "id": 1,
+      "places": [
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 40
+        },
+        {
+          "placeId": "491701",
+          "name": "Perinthians",
+          "charOffset": 124
+        },
+        {
+          "placeId": "501434",
+          "name": "Hellespont",
+          "charOffset": 222
+        },
+        {
+          "placeId": "511357",
+          "name": "Perinthians",
+          "charOffset": 240
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 292
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 345
+        },
+        {
+          "placeId": "501629",
+          "name": "Strymon",
+          "charOffset": 364
+        },
+        {
+          "placeId": "511357",
+          "name": "Perinthus",
+          "charOffset": 389
+        },
+        {
+          "placeId": "511357",
+          "name": "Perinthians",
+          "charOffset": 411
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 589
+        },
+        {
+          "placeId": "511357",
+          "name": "Perinthians",
+          "charOffset": 627
+        },
+        {
+          "placeId": "511357",
+          "name": "Perinthians",
+          "charOffset": 822
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 920
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 1114
+        },
+        {
+          "placeId": "511357",
+          "name": "Perinthians",
+          "charOffset": 1137
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "places": [
+        {
+          "placeId": "511357",
+          "name": "Perinthians",
+          "charOffset": 1238
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 1294
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 1377
+        },
+        {
+          "placeId": "511357",
+          "name": "Perinthus",
+          "charOffset": 1431
+        },
+        {
+          "placeId": "1001889",
+          "name": "Thrace",
+          "charOffset": 1492
+        },
+        {
+          "placeId": "1001889",
+          "name": "Thrace",
+          "charOffset": 1598
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "places": [
+        {
+          "placeId": "1001889",
+          "name": "Thracians",
+          "charOffset": 1650
+        },
+        {
+          "placeId": "50004",
+          "name": "Indians",
+          "charOffset": 1709
+        },
+        {
+          "placeId": "1001889",
+          "name": "Thracians",
+          "charOffset": 1921
+        },
+        {
+          "placeId": "216817",
+          "name": "Getae",
+          "charOffset": 2041
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "places": [
+        {
+          "placeId": "491643",
+          "name": "Crestonaeans",
+          "charOffset": 2090
+        },
+        {
+          "placeId": "216817",
+          "name": "Getae",
+          "charOffset": 2119
+        },
+        {
+          "placeId": "1001889",
+          "name": "Thracians",
+          "charOffset": 2265
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "places": [
+        {
+          "placeId": "491643",
+          "name": "Crestonaeans",
+          "charOffset": 2662
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "places": [
+        {
+          "placeId": "1001889",
+          "name": "Thracians",
+          "charOffset": 3178
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "places": [
+        {
+          "placeId": "1001889",
+          "name": "Thracian",
+          "charOffset": 4309
+        },
+        {
+          "placeId": "226577",
+          "name": "Ister",
+          "charOffset": 4465
+        },
+        {
+          "placeId": "226577",
+          "name": "Ister",
+          "charOffset": 4563
+        },
+        {
+          "placeId": "903080",
+          "name": "Median",
+          "charOffset": 4616
+        },
+        {
+          "placeId": "393374",
+          "name": "Eneti",
+          "charOffset": 4966
+        },
+        {
+          "placeId": "903080",
+          "name": "Media",
+          "charOffset": 5033
+        },
+        {
+          "placeId": "383698",
+          "name": "Ligyes",
+          "charOffset": 5179
+        },
+        {
+          "placeId": "148127",
+          "name": "Massalia",
+          "charOffset": 5206
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "places": [
+        {
+          "placeId": "707498",
+          "name": "Cyprians",
+          "charOffset": 5262
+        },
+        {
+          "placeId": "1001889",
+          "name": "Thracians",
+          "charOffset": 5312
+        },
+        {
+          "placeId": "226577",
+          "name": "Ister",
+          "charOffset": 5347
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "places": [
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 5731
+        },
+        {
+          "placeId": "501434",
+          "name": "Hellespont",
+          "charOffset": 5780
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 5803
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 5868
+        },
+        {
+          "placeId": "550763",
+          "name": "Mytilenaean",
+          "charOffset": 5904
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 5955
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 6057
+        },
+        {
+          "placeId": "501520",
+          "name": "Myrcinus",
+          "charOffset": 6122
+        },
+        {
+          "placeId": "501409",
+          "name": "Edonian",
+          "charOffset": 6139
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "places": [
+        {
+          "placeId": "geonames-256866",
+          "name": "Mytilene",
+          "charOffset": 6322
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 6521
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 6602
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 6738
+        },
+        {
+          "placeId": "550701",
+          "name": "Lydian",
+          "charOffset": 6886
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 7179
+        },
+        {
+          "placeId": "550701",
+          "name": "Lydians",
+          "charOffset": 7191
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "places": [
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 7919
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 7997
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 8071
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonia",
+          "charOffset": 8147
+        },
+        {
+          "placeId": "501629",
+          "name": "Strymon",
+          "charOffset": 8166
+        },
+        {
+          "placeId": "501434",
+          "name": "Hellespont",
+          "charOffset": 8200
+        },
+        {
+          "placeId": "550547",
+          "name": "Teucrians",
+          "charOffset": 8250
+        },
+        {
+          "placeId": "550595",
+          "name": "Troy",
+          "charOffset": 8263
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "places": [
+        {
+          "placeId": "1001889",
+          "name": "Thrace",
+          "charOffset": 8577
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 8606
+        },
+        {
+          "placeId": "501434",
+          "name": "Hellespont",
+          "charOffset": 8741
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "places": [
+        {
+          "placeId": "1001889",
+          "name": "Thrace",
+          "charOffset": 8845
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonia",
+          "charOffset": 8872
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 8895
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 8922
+        },
+        {
+          "placeId": "560221",
+          "name": "sea",
+          "charOffset": 9004
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 9027
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 9089
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 9161
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 9189
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 9358
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 9515
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 9649
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 9671
+        },
+        {
+          "placeId": "501614",
+          "name": "Siriopaeones",
+          "charOffset": 9685
+        },
+        {
+          "placeId": "501579",
+          "name": "Prasiad lake",
+          "charOffset": 9743
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "places": [
+        {
+          "placeId": "501551",
+          "name": "Pangaean",
+          "charOffset": 9832
+        },
+        {
+          "placeId": "481704",
+          "name": "Agrianes",
+          "charOffset": 9891
+        },
+        {
+          "placeId": "501579",
+          "name": "Prasiad lake",
+          "charOffset": 9925
+        },
+        {
+          "placeId": "501539",
+          "name": "Orbelus",
+          "charOffset": 10402
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "places": [
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 11022
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 11108
+        },
+        {
+          "placeId": "491656",
+          "name": "Macedonia",
+          "charOffset": 11151
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 11172
+        },
+        {
+          "placeId": "501579",
+          "name": "Prasiad lake",
+          "charOffset": 11358
+        },
+        {
+          "placeId": "491656",
+          "name": "Macedonia",
+          "charOffset": 11374
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "places": [
+        {
+          "placeId": "491582",
+          "name": "Dysorum",
+          "charOffset": 11573
+        },
+        {
+          "placeId": "491656",
+          "name": "Macedonia",
+          "charOffset": 11592
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 11612
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 11880
+        },
+        {
+          "placeId": "491656",
+          "name": "Macedonian",
+          "charOffset": 11937
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persia",
+          "charOffset": 11979
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 12300
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 12543
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 12566
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 12963
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "places": [
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 13187
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "places": [
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 13979
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 14396
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 14642
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greek",
+          "charOffset": 15035
+        },
+        {
+          "placeId": "491656",
+          "name": "Macedonia",
+          "charOffset": 15052
+        },
+        {
+          "placeId": "491656",
+          "name": "Macedonians",
+          "charOffset": 15167
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 15189
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 15238
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "places": [
+        {
+          "placeId": "491656",
+          "name": "Macedonians",
+          "charOffset": 15299
+        },
+        {
+          "placeId": "491656",
+          "name": "Macedonians",
+          "charOffset": 15472
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 15584
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 15748
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "places": [
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 15867
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greeks",
+          "charOffset": 15942
+        },
+        {
+          "placeId": "570531",
+          "name": "Olympia",
+          "charOffset": 16107
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greeks",
+          "charOffset": 16225
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greeks",
+          "charOffset": 16331
+        },
+        {
+          "placeId": "570106",
+          "name": "Argive",
+          "charOffset": 16407
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greek",
+          "charOffset": 16434
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "places": [
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 16598
+        },
+        {
+          "placeId": "501434",
+          "name": "Hellespont",
+          "charOffset": 16621
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 16678
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesian",
+          "charOffset": 16700
+        },
+        {
+          "placeId": "501520",
+          "name": "Myrcinus",
+          "charOffset": 16829
+        },
+        {
+          "placeId": "501629",
+          "name": "Strymon",
+          "charOffset": 16851
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 16924
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 16940
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greek",
+          "charOffset": 17055
+        },
+        {
+          "placeId": "1001889",
+          "name": "Thrace",
+          "charOffset": 17080
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greek",
+          "charOffset": 17198
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "places": [
+        {
+          "placeId": "geonames-390903",
+          "name": "Hellas",
+          "charOffset": 17543
+        },
+        {
+          "placeId": "501520",
+          "name": "Myrcinus",
+          "charOffset": 17685
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 18124
+        },
+        {
+          "placeId": "1273",
+          "name": "Scythia",
+          "charOffset": 18260
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 18609
+        },
+        {
+          "placeId": "1001889",
+          "name": "Thracian",
+          "charOffset": 18640
+        },
+        {
+          "placeId": "912936",
+          "name": "Susa",
+          "charOffset": 18671
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "places": [
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 18857
+        },
+        {
+          "placeId": "912936",
+          "name": "Susa",
+          "charOffset": 18881
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "places": [
+        {
+          "placeId": "520985",
+          "name": "Byzantium",
+          "charOffset": 19611
+        },
+        {
+          "placeId": "520988",
+          "name": "Calchedon",
+          "charOffset": 19622
+        },
+        {
+          "placeId": "550433",
+          "name": "Antandrus",
+          "charOffset": 19633
+        },
+        {
+          "placeId": "550944",
+          "name": "Troad",
+          "charOffset": 19650
+        },
+        {
+          "placeId": "550678",
+          "name": "Lamponium",
+          "charOffset": 19661
+        },
+        {
+          "placeId": "550696",
+          "name": "Lesbians",
+          "charOffset": 19709
+        },
+        {
+          "placeId": "550693",
+          "name": "Lemnos",
+          "charOffset": 19727
+        },
+        {
+          "placeId": "501439",
+          "name": "Imbros",
+          "charOffset": 19738
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "places": [
+        {
+          "placeId": "570102",
+          "name": "Pelasgians",
+          "charOffset": 19784
+        },
+        {
+          "placeId": "550693",
+          "name": "Lemnians",
+          "charOffset": 19805
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 19906
+        },
+        {
+          "placeId": "599926",
+          "name": "Samos",
+          "charOffset": 20022
+        },
+        {
+          "placeId": "550693",
+          "name": "Lemnos",
+          "charOffset": 20076
+        },
+        {
+          "placeId": "1273",
+          "name": "Scythians",
+          "charOffset": 20184
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "places": [
+        {
+          "placeId": "1273",
+          "name": "Scythia",
+          "charOffset": 20253
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 20412
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxos",
+          "charOffset": 20435
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 20445
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxos",
+          "charOffset": 20454
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 20534
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 20591
+        },
+        {
+          "placeId": "599868",
+          "name": "Parians",
+          "charOffset": 20701
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greeks",
+          "charOffset": 20732
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesians",
+          "charOffset": 20746
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "places": [
+        {
+          "placeId": "599868",
+          "name": "Parians",
+          "charOffset": 20806
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 20878
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesian",
+          "charOffset": 20902
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 21043
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesians",
+          "charOffset": 21567
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "places": [
+        {
+          "placeId": "599868",
+          "name": "Parians",
+          "charOffset": 21654
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 21676
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 21734
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 21827
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 21878
+        },
+        {
+          "placeId": "912936",
+          "name": "Susa",
+          "charOffset": 22007
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 22037
+        },
+        {
+          "placeId": "912936",
+          "name": "Susa",
+          "charOffset": 22056
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxians",
+          "charOffset": 22070
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxians",
+          "charOffset": 22138
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 22154
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxos",
+          "charOffset": 22293
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxians",
+          "charOffset": 22540
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxians",
+          "charOffset": 22588
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxians",
+          "charOffset": 23035
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxos",
+          "charOffset": 23256
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxians",
+          "charOffset": 23267
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "places": [
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 23458
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxos",
+          "charOffset": 23491
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 23602
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxos",
+          "charOffset": 23996
+        },
+        {
+          "placeId": "599868",
+          "name": "Paros",
+          "charOffset": 24051
+        },
+        {
+          "placeId": "589693",
+          "name": "Andros",
+          "charOffset": 24058
+        },
+        {
+          "placeId": "560353",
+          "name": "Cyclades",
+          "charOffset": 24104
+        },
+        {
+          "placeId": "540775",
+          "name": "Euboea",
+          "charOffset": 24175
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 24238
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "places": [
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 24678
+        },
+        {
+          "placeId": "912936",
+          "name": "Susa",
+          "charOffset": 24732
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 24893
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 24976
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonian",
+          "charOffset": 25113
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Hellas",
+          "charOffset": 25237
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "places": [
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 25377
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionian",
+          "charOffset": 25390
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxians",
+          "charOffset": 25411
+        },
+        {
+          "placeId": "501434",
+          "name": "Hellespont",
+          "charOffset": 25451
+        },
+        {
+          "placeId": "550497",
+          "name": "Chios",
+          "charOffset": 25483
+        },
+        {
+          "placeId": "550631",
+          "name": "Caucasa",
+          "charOffset": 25518
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxos",
+          "charOffset": 25572
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxians",
+          "charOffset": 25615
+        },
+        {
+          "placeId": "599811",
+          "name": "Myndus",
+          "charOffset": 25803
+        },
+        {
+          "placeId": "599811",
+          "name": "Myndian",
+          "charOffset": 26129
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 26243
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxos",
+          "charOffset": 26717
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxians",
+          "charOffset": 26735
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "places": [
+        {
+          "placeId": "599822",
+          "name": "Naxians",
+          "charOffset": 26790
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxians",
+          "charOffset": 27075
+        },
+        {
+          "placeId": "550497",
+          "name": "Chios",
+          "charOffset": 27191
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxos",
+          "charOffset": 27200
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 27302
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxians",
+          "charOffset": 27453
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "places": [
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 27842
+        },
+        {
+          "placeId": "912936",
+          "name": "Susa",
+          "charOffset": 27997
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 28410
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 28468
+        },
+        {
+          "placeId": "912936",
+          "name": "Susa",
+          "charOffset": 28673
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 28782
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "places": [
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 29586
+        },
+        {
+          "placeId": "599593",
+          "name": "Branchidae",
+          "charOffset": 29680
+        },
+        {
+          "placeId": "550701",
+          "name": "Lydian",
+          "charOffset": 29724
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxos",
+          "charOffset": 30156
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "places": [
+        {
+          "placeId": "geonames-256866",
+          "name": "Mytilene",
+          "charOffset": 30427
+        },
+        {
+          "placeId": "550506",
+          "name": "Cyme",
+          "charOffset": 30452
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 30635
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesians",
+          "charOffset": 30678
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 30777
+        },
+        {
+          "placeId": "599822",
+          "name": "Naxos",
+          "charOffset": 30906
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "places": [
+        {
+          "placeId": "550763",
+          "name": "Mytilenaeans",
+          "charOffset": 31013
+        },
+        {
+          "placeId": "550506",
+          "name": "Cymaeans",
+          "charOffset": 31074
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 31252
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemon",
+          "charOffset": 31361
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "places": [
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 31438
+        },
+        {
+          "placeId": "570685",
+          "name": "Spartans",
+          "charOffset": 32082
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "places": [
+        {
+          "placeId": "570685",
+          "name": "Spartans",
+          "charOffset": 32536
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "places": [
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 32924
+        },
+        {
+          "placeId": "570685",
+          "name": "Spartans",
+          "charOffset": 33017
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "places": [
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 34056
+        },
+        {
+          "placeId": "570685",
+          "name": "Spartans",
+          "charOffset": 34208
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 34308
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 34437
+        },
+        {
+          "placeId": "599973",
+          "name": "Thera",
+          "charOffset": 34456
+        },
+        {
+          "placeId": "344414",
+          "name": "Cinyps",
+          "charOffset": 34521
+        },
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 34557
+        },
+        {
+          "placeId": "344428",
+          "name": "Macae",
+          "charOffset": 34611
+        },
+        {
+          "placeId": "716588",
+          "name": "Libyans",
+          "charOffset": 34622
+        },
+        {
+          "placeId": "314921",
+          "name": "Carchedonians",
+          "charOffset": 34638
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "places": [
+        {
+          "placeId": "570577",
+          "name": "Peloponnesus",
+          "charOffset": 34672
+        },
+        {
+          "placeId": "579946",
+          "name": "Eleon",
+          "charOffset": 34718
+        },
+        {
+          "placeId": "462237",
+          "name": "Heraclea",
+          "charOffset": 34799
+        },
+        {
+          "placeId": "462492",
+          "name": "Sicily",
+          "charOffset": 34811
+        },
+        {
+          "placeId": "462202",
+          "name": "Eryx",
+          "charOffset": 34886
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 34980
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "places": [
+        {
+          "placeId": "716588",
+          "name": "Libya",
+          "charOffset": 35172
+        },
+        {
+          "placeId": "452346",
+          "name": "Italy",
+          "charOffset": 35190
+        },
+        {
+          "placeId": "452457",
+          "name": "Sybarites",
+          "charOffset": 35229
+        },
+        {
+          "placeId": "452317",
+          "name": "Croton",
+          "charOffset": 35305
+        },
+        {
+          "placeId": "452317",
+          "name": "Croton",
+          "charOffset": 35328
+        },
+        {
+          "placeId": "452457",
+          "name": "Sybaris",
+          "charOffset": 35463
+        },
+        {
+          "placeId": "452457",
+          "name": "Sybarites",
+          "charOffset": 35528
+        },
+        {
+          "placeId": "452317",
+          "name": "Crotoniats",
+          "charOffset": 35582
+        },
+        {
+          "placeId": "452457",
+          "name": "Sybaris",
+          "charOffset": 35651
+        },
+        {
+          "placeId": "452488",
+          "name": "Elean",
+          "charOffset": 35693
+        },
+        {
+          "placeId": "452317",
+          "name": "Croton",
+          "charOffset": 35774
+        },
+        {
+          "placeId": "452457",
+          "name": "Sybaris",
+          "charOffset": 35807
+        },
+        {
+          "placeId": "452317",
+          "name": "Croton",
+          "charOffset": 35863
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "places": [
+        {
+          "placeId": "452457",
+          "name": "Sybarites",
+          "charOffset": 35994
+        },
+        {
+          "placeId": "452315",
+          "name": "Crathis",
+          "charOffset": 36063
+        },
+        {
+          "placeId": "452315",
+          "name": "Crathis",
+          "charOffset": 36127
+        },
+        {
+          "placeId": "462202",
+          "name": "Erycine",
+          "charOffset": 36379
+        },
+        {
+          "placeId": "452317",
+          "name": "Crotoniats",
+          "charOffset": 36460
+        },
+        {
+          "placeId": "570220",
+          "name": "Elis",
+          "charOffset": 36568
+        },
+        {
+          "placeId": "452457",
+          "name": "Sybaris",
+          "charOffset": 36745
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "places": [
+        {
+          "placeId": "570685",
+          "name": "Spartans",
+          "charOffset": 36979
+        },
+        {
+          "placeId": "462492",
+          "name": "Sicily",
+          "charOffset": 37113
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 37194
+        },
+        {
+          "placeId": "462487",
+          "name": "Egestans",
+          "charOffset": 37210
+        },
+        {
+          "placeId": "462237",
+          "name": "Minoa",
+          "charOffset": 37354
+        },
+        {
+          "placeId": "462489",
+          "name": "Selinus",
+          "charOffset": 37377
+        },
+        {
+          "placeId": "462489",
+          "name": "Selinus",
+          "charOffset": 37421
+        },
+        {
+          "placeId": "462489",
+          "name": "Selinus",
+          "charOffset": 37526
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "places": [
+        {
+          "placeId": "452317",
+          "name": "Croton",
+          "charOffset": 37732
+        },
+        {
+          "placeId": "452457",
+          "name": "Sybaris",
+          "charOffset": 37870
+        },
+        {
+          "placeId": "452317",
+          "name": "Croton",
+          "charOffset": 37900
+        },
+        {
+          "placeId": "570531",
+          "name": "Olympia",
+          "charOffset": 38104
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greek",
+          "charOffset": 38128
+        },
+        {
+          "placeId": "462487",
+          "name": "Egestans",
+          "charOffset": 38195
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "places": [
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 38414
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemon",
+          "charOffset": 38448
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "places": [
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 38634
+        },
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 38650
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 38704
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 39053
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Hellas",
+          "charOffset": 39215
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Hellas",
+          "charOffset": 39273
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionian",
+          "charOffset": 39293
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 39946
+        },
+        {
+          "placeId": "550701",
+          "name": "Lydians",
+          "charOffset": 39962
+        },
+        {
+          "placeId": "550701",
+          "name": "Lydians",
+          "charOffset": 40134
+        },
+        {
+          "placeId": "609502",
+          "name": "Phrygians",
+          "charOffset": 40175
+        },
+        {
+          "placeId": "991402",
+          "name": "Cappadocians",
+          "charOffset": 40310
+        },
+        {
+          "placeId": "1306",
+          "name": "Syrians",
+          "charOffset": 40337
+        },
+        {
+          "placeId": "658440",
+          "name": "Cilicians",
+          "charOffset": 40374
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 40458
+        },
+        {
+          "placeId": "658440",
+          "name": "Cilicians",
+          "charOffset": 40555
+        },
+        {
+          "placeId": "874350",
+          "name": "Armenians",
+          "charOffset": 40574
+        },
+        {
+          "placeId": "874350",
+          "name": "Armenians",
+          "charOffset": 40630
+        },
+        {
+          "placeId": "884179",
+          "name": "Matieni",
+          "charOffset": 40645
+        },
+        {
+          "placeId": "912935",
+          "name": "Choaspes",
+          "charOffset": 40743
+        },
+        {
+          "placeId": "912936",
+          "name": "Susa",
+          "charOffset": 40763
+        },
+        {
+          "placeId": "570480",
+          "name": "Messenians",
+          "charOffset": 41017
+        },
+        {
+          "placeId": "570102",
+          "name": "Arcadians",
+          "charOffset": 41071
+        },
+        {
+          "placeId": "570106",
+          "name": "Argives",
+          "charOffset": 41085
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesian",
+          "charOffset": 41339
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "places": [
+        {
+          "placeId": "1046",
+          "name": "Ionian sea",
+          "charOffset": 41602
+        },
+        {
+          "placeId": "570685",
+          "name": "Spartan",
+          "charOffset": 41684
+        },
+        {
+          "placeId": "570685",
+          "name": "Spartans",
+          "charOffset": 41755
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesian",
+          "charOffset": 41988
+        },
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 42015
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 42067
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "places": [
+        {
+          "placeId": "560221",
+          "name": "sea",
+          "charOffset": 42171
+        },
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 43037
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "places": [
+        {
+          "placeId": "550701",
+          "name": "Lydia",
+          "charOffset": 43345
+        },
+        {
+          "placeId": "609502",
+          "name": "Phrygia",
+          "charOffset": 43355
+        },
+        {
+          "placeId": "609502",
+          "name": "Phrygia",
+          "charOffset": 43451
+        },
+        {
+          "placeId": "857148",
+          "name": "Halys",
+          "charOffset": 43481
+        },
+        {
+          "placeId": "991402",
+          "name": "Cappadocia",
+          "charOffset": 43627
+        },
+        {
+          "placeId": "628957",
+          "name": "Cilicia",
+          "charOffset": 43686
+        },
+        {
+          "placeId": "658440",
+          "name": "Cilica",
+          "charOffset": 43889
+        },
+        {
+          "placeId": "628957",
+          "name": "Cilicia",
+          "charOffset": 43962
+        },
+        {
+          "placeId": "981507",
+          "name": "Armenia",
+          "charOffset": 43974
+        },
+        {
+          "placeId": "912849",
+          "name": "Euphrates",
+          "charOffset": 44029
+        },
+        {
+          "placeId": "981507",
+          "name": "Armenia",
+          "charOffset": 44043
+        },
+        {
+          "placeId": "981507",
+          "name": "Armenia",
+          "charOffset": 44155
+        },
+        {
+          "placeId": "884179",
+          "name": "Matienian",
+          "charOffset": 44183
+        },
+        {
+          "placeId": "874545",
+          "name": "Tigris",
+          "charOffset": 44373
+        },
+        {
+          "placeId": "874350",
+          "name": "Armenians",
+          "charOffset": 44526
+        },
+        {
+          "placeId": "884179",
+          "name": "Matieni",
+          "charOffset": 44560
+        },
+        {
+          "placeId": "912935",
+          "name": "Choaspes",
+          "charOffset": 44860
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "places": [
+        {
+          "placeId": "912936",
+          "name": "Susa",
+          "charOffset": 44911
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 45041
+        },
+        {
+          "placeId": "912936",
+          "name": "Susa",
+          "charOffset": 45051
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 45203
+        },
+        {
+          "placeId": "912936",
+          "name": "Memnonian",
+          "charOffset": 45238
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "places": [
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 45497
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonian",
+          "charOffset": 45550
+        },
+        {
+          "placeId": "599612",
+          "name": "Ephesus",
+          "charOffset": 45721
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 45732
+        },
+        {
+          "placeId": "560221",
+          "name": "Greek sea",
+          "charOffset": 45789
+        },
+        {
+          "placeId": "912936",
+          "name": "Susa",
+          "charOffset": 45802
+        },
+        {
+          "placeId": "912936",
+          "name": "Memnonian",
+          "charOffset": 45833
+        },
+        {
+          "placeId": "599612",
+          "name": "Ephesus",
+          "charOffset": 45950
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 45961
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "places": [
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 46070
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 46098
+        },
+        {
+          "placeId": "491600",
+          "name": "Gephyraean",
+          "charOffset": 46307
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 46418
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "places": [
+        {
+          "placeId": "658472",
+          "name": "Gephyraean",
+          "charOffset": 46997
+        },
+        {
+          "placeId": "579925",
+          "name": "Eretria",
+          "charOffset": 47096
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 47155
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotia",
+          "charOffset": 47216
+        },
+        {
+          "placeId": "580114",
+          "name": "Tanagra",
+          "charOffset": 47254
+        },
+        {
+          "placeId": "678334",
+          "name": "Cadmeans",
+          "charOffset": 47325
+        },
+        {
+          "placeId": "570106",
+          "name": "Argives",
+          "charOffset": 47376
+        },
+        {
+          "placeId": "658472",
+          "name": "Gephyraeans",
+          "charOffset": 47397
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 47430
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotians",
+          "charOffset": 47473
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 47488
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "places": [
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 47628
+        },
+        {
+          "placeId": "658472",
+          "name": "Gephyraeans",
+          "charOffset": 47677
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Hellas",
+          "charOffset": 47722
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greeks",
+          "charOffset": 47832
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greeks",
+          "charOffset": 47929
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 47988
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 48039
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenician",
+          "charOffset": 48150
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 48196
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greece",
+          "charOffset": 48230
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 48248
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "places": [
+        {
+          "placeId": "678334",
+          "name": "Cadmean",
+          "charOffset": 48491
+        },
+        {
+          "placeId": "541138",
+          "name": "Thebes",
+          "charOffset": 48543
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotia",
+          "charOffset": 48553
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionian",
+          "charOffset": 48624
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "places": [
+        {
+          "placeId": "678334",
+          "name": "Cadmeans",
+          "charOffset": 49381
+        },
+        {
+          "placeId": "570106",
+          "name": "Argives",
+          "charOffset": 49411
+        },
+        {
+          "placeId": "481829",
+          "name": "Encheleis",
+          "charOffset": 49440
+        },
+        {
+          "placeId": "491600",
+          "name": "Gephyraeans",
+          "charOffset": 49455
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotians",
+          "charOffset": 49516
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 49541
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 49591
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 49623
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "places": [
+        {
+          "placeId": "981502",
+          "name": "Achaean",
+          "charOffset": 49687
+        },
+        {
+          "placeId": "658472",
+          "name": "Gephyreans",
+          "charOffset": 49792
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 49932
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 50051
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 50124
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 50214
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 50265
+        },
+        {
+          "placeId": "580011",
+          "name": "Lipsydrium",
+          "charOffset": 50369
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonia",
+          "charOffset": 50389
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 50542
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "places": [
+        {
+          "placeId": "599868",
+          "name": "Parian",
+          "charOffset": 50814
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 50852
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 50893
+        },
+        {
+          "placeId": "570685",
+          "name": "Spartans",
+          "charOffset": 50944
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 51027
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 51053
+        },
+        {
+          "placeId": "580072",
+          "name": "Phalerum",
+          "charOffset": 51421
+        },
+        {
+          "placeId": "1332",
+          "name": "Thessalians",
+          "charOffset": 51565
+        },
+        {
+          "placeId": "1332",
+          "name": "Thessalians",
+          "charOffset": 51613
+        },
+        {
+          "placeId": "614635",
+          "name": "Conium",
+          "charOffset": 51696
+        },
+        {
+          "placeId": "580072",
+          "name": "Phalerum",
+          "charOffset": 51843
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 52021
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonian",
+          "charOffset": 52106
+        },
+        {
+          "placeId": "579858",
+          "name": "Alopecae",
+          "charOffset": 52163
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "places": [
+        {
+          "placeId": "579888",
+          "name": "Attica",
+          "charOffset": 52175
+        },
+        {
+          "placeId": "580002",
+          "name": "Cynosarges",
+          "charOffset": 52208
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 52242
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 52291
+        },
+        {
+          "placeId": "579888",
+          "name": "Attica",
+          "charOffset": 52436
+        },
+        {
+          "placeId": "1332",
+          "name": "Thessalian",
+          "charOffset": 52448
+        },
+        {
+          "placeId": "1332",
+          "name": "Thessaly",
+          "charOffset": 52614
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 52686
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "places": [
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 52823
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 53016
+        },
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 53102
+        },
+        {
+          "placeId": "579888",
+          "name": "Attica",
+          "charOffset": 53401
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 53464
+        },
+        {
+          "placeId": "550877",
+          "name": "Sigeum",
+          "charOffset": 53552
+        },
+        {
+          "placeId": "550871",
+          "name": "Scamander",
+          "charOffset": 53566
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 53596
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 53807
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 53996
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 54128
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 54174
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 54190
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 54268
+        },
+        {
+          "placeId": "991381",
+          "name": "Caria",
+          "charOffset": 54617
+        },
+        {
+          "placeId": "991381",
+          "name": "Caria",
+          "charOffset": 54617
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 54808
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "places": [
+        {
+          "placeId": "570668",
+          "name": "Sicyon",
+          "charOffset": 55254
+        },
+        {
+          "placeId": "570106",
+          "name": "Argives",
+          "charOffset": 55309
+        },
+        {
+          "placeId": "570668",
+          "name": "Sicyon",
+          "charOffset": 55356
+        },
+        {
+          "placeId": "570106",
+          "name": "Argives",
+          "charOffset": 55414
+        },
+        {
+          "placeId": "570106",
+          "name": "Argos",
+          "charOffset": 55426
+        },
+        {
+          "placeId": "570668",
+          "name": "Sicyon",
+          "charOffset": 55630
+        },
+        {
+          "placeId": "570106",
+          "name": "Argive",
+          "charOffset": 55655
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 55683
+        },
+        {
+          "placeId": "570668",
+          "name": "Sicyon",
+          "charOffset": 55801
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotian",
+          "charOffset": 56037
+        },
+        {
+          "placeId": "541138",
+          "name": "Thebes",
+          "charOffset": 56046
+        },
+        {
+          "placeId": "541138",
+          "name": "Thebans",
+          "charOffset": 56139
+        },
+        {
+          "placeId": "570668",
+          "name": "Sicyonians",
+          "charOffset": 56681
+        },
+        {
+          "placeId": "570668",
+          "name": "Sicyonians",
+          "charOffset": 56934
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "places": [
+        {
+          "placeId": "570668",
+          "name": "Sicyonians",
+          "charOffset": 57303
+        },
+        {
+          "placeId": "570106",
+          "name": "Argives",
+          "charOffset": 57318
+        },
+        {
+          "placeId": "570668",
+          "name": "Sicyonians",
+          "charOffset": 57378
+        },
+        {
+          "placeId": "570668",
+          "name": "Sicyonians",
+          "charOffset": 57745
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "places": [
+        {
+          "placeId": "570668",
+          "name": "Sicyonian",
+          "charOffset": 58050
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 58090
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 58208
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 58312
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 58878
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 58940
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 59203
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 59267
+        },
+        {
+          "placeId": "570531",
+          "name": "Olympia",
+          "charOffset": 59314
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 59635
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 60009
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 60115
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 60408
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 60498
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonian",
+          "charOffset": 60876
+        },
+        {
+          "placeId": "981502",
+          "name": "Achaean",
+          "charOffset": 61040
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 61182
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 61219
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphian",
+          "charOffset": 61310
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 61453
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 61594
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 61630
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 61679
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 61744
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 61827
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 61917
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 62054
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 62449
+        },
+        {
+          "placeId": "570577",
+          "name": "Peloponnesus",
+          "charOffset": 62535
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 62638
+        },
+        {
+          "placeId": "579920",
+          "name": "Eleusis",
+          "charOffset": 62763
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotians",
+          "charOffset": 62798
+        },
+        {
+          "placeId": "580039",
+          "name": "Oenoe",
+          "charOffset": 62835
+        },
+        {
+          "placeId": "540831",
+          "name": "Hysiae",
+          "charOffset": 62845
+        },
+        {
+          "placeId": "579888",
+          "name": "Attica",
+          "charOffset": 62881
+        },
+        {
+          "placeId": "540703",
+          "name": "Chalcidians",
+          "charOffset": 62899
+        },
+        {
+          "placeId": "579888",
+          "name": "Attica",
+          "charOffset": 62956
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 62968
+        },
+        {
+          "placeId": "570685",
+          "name": "Spartans",
+          "charOffset": 63040
+        },
+        {
+          "placeId": "579920",
+          "name": "Eleusis",
+          "charOffset": 63052
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "places": [
+        {
+          "placeId": "540689",
+          "name": "Boeotians",
+          "charOffset": 63081
+        },
+        {
+          "placeId": "540703",
+          "name": "Chalcidians",
+          "charOffset": 63095
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinthians",
+          "charOffset": 63166
+        },
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 63319
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemon",
+          "charOffset": 63395
+        },
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 63537
+        },
+        {
+          "placeId": "579920",
+          "name": "Eleusis",
+          "charOffset": 63880
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonian",
+          "charOffset": 63930
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinthians",
+          "charOffset": 63984
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "places": [
+        {
+          "placeId": "579888",
+          "name": "Attica",
+          "charOffset": 64093
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 64168
+        },
+        {
+          "placeId": "570468",
+          "name": "Megara",
+          "charOffset": 64238
+        },
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 64365
+        },
+        {
+          "placeId": "579920",
+          "name": "Eleusis",
+          "charOffset": 64468
+        },
+        {
+          "placeId": "570577",
+          "name": "Peloponnesians",
+          "charOffset": 64498
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 64565
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 64636
+        },
+        {
+          "placeId": "540703",
+          "name": "Chalcidians",
+          "charOffset": 64672
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotians",
+          "charOffset": 64704
+        },
+        {
+          "placeId": "540783",
+          "name": "Euripus",
+          "charOffset": 64726
+        },
+        {
+          "placeId": "540703",
+          "name": "Chalcidians",
+          "charOffset": 64746
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 64777
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotians",
+          "charOffset": 64833
+        },
+        {
+          "placeId": "540703",
+          "name": "Chalcidians",
+          "charOffset": 64854
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotians",
+          "charOffset": 64889
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 65018
+        },
+        {
+          "placeId": "540775",
+          "name": "Euboea",
+          "charOffset": 65039
+        },
+        {
+          "placeId": "540703",
+          "name": "Chalcidians",
+          "charOffset": 65065
+        },
+        {
+          "placeId": "540703",
+          "name": "Chalcidians",
+          "charOffset": 65276
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotians",
+          "charOffset": 65381
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 65624
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 65936
+        },
+        {
+          "placeId": "540703",
+          "name": "Chalcis",
+          "charOffset": 65948
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotia",
+          "charOffset": 65960
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 66137
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 66320
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 66675
+        },
+        {
+          "placeId": "541138",
+          "name": "Thebans",
+          "charOffset": 66699
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 66730
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 66761
+        },
+        {
+          "placeId": "541138",
+          "name": "Thebans",
+          "charOffset": 66816
+        },
+        {
+          "placeId": "541138",
+          "name": "Thebans",
+          "charOffset": 67076
+        },
+        {
+          "placeId": "580114",
+          "name": "Tanagra",
+          "charOffset": 67194
+        },
+        {
+          "placeId": "540717",
+          "name": "Coronea",
+          "charOffset": 67206
+        },
+        {
+          "placeId": "541141",
+          "name": "Thespiae",
+          "charOffset": 67218
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "places": [
+        {
+          "placeId": "579844",
+          "name": "Aegina",
+          "charOffset": 67528
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 67639
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 67785
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 67863
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "places": [
+        {
+          "placeId": "541138",
+          "name": "Thebans",
+          "charOffset": 67983
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 68088
+        },
+        {
+          "placeId": "579844",
+          "name": "Aegina",
+          "charOffset": 68139
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 68219
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 68301
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 68337
+        },
+        {
+          "placeId": "541138",
+          "name": "Thebans",
+          "charOffset": 68370
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 68418
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotians",
+          "charOffset": 68447
+        },
+        {
+          "placeId": "579888",
+          "name": "Attica",
+          "charOffset": 68476
+        },
+        {
+          "placeId": "580072",
+          "name": "Phaleron",
+          "charOffset": 68512
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 68583
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 68648
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 68701
+        },
+        {
+          "placeId": "570228",
+          "name": "Epidaurians",
+          "charOffset": 68716
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 68784
+        },
+        {
+          "placeId": "570228",
+          "name": "Epidaurians",
+          "charOffset": 68942
+        },
+        {
+          "placeId": "570228",
+          "name": "Epidaurus",
+          "charOffset": 69145
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 69165
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 69340
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 69356
+        },
+        {
+          "placeId": "570228",
+          "name": "Epidaurians",
+          "charOffset": 69402
+        },
+        {
+          "placeId": "570228",
+          "name": "Epidaurians",
+          "charOffset": 69497
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 69693
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 69745
+        },
+        {
+          "placeId": "570228",
+          "name": "Epidaurians",
+          "charOffset": 69797
+        },
+        {
+          "placeId": "570228",
+          "name": "Epidaurus",
+          "charOffset": 69829
+        },
+        {
+          "placeId": "570228",
+          "name": "Epidaurians",
+          "charOffset": 69971
+        },
+        {
+          "placeId": "570228",
+          "name": "Epidaurians",
+          "charOffset": 70033
+        },
+        {
+          "placeId": "570228",
+          "name": "Epidaurians",
+          "charOffset": 70536
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "places": [
+        {
+          "placeId": "570228",
+          "name": "Epidaurians",
+          "charOffset": 70656
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 70716
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 70736
+        },
+        {
+          "placeId": "570228",
+          "name": "Epidaurians",
+          "charOffset": 70775
+        },
+        {
+          "placeId": "579844",
+          "name": "Aegina",
+          "charOffset": 71039
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 71077
+        },
+        {
+          "placeId": "579844",
+          "name": "Aegina",
+          "charOffset": 71105
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 71162
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 71219
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 71239
+        },
+        {
+          "placeId": "579844",
+          "name": "Aegina",
+          "charOffset": 71393
+        },
+        {
+          "placeId": "579888",
+          "name": "Attic",
+          "charOffset": 71448
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "places": [
+        {
+          "placeId": "580072",
+          "name": "Phalerum",
+          "charOffset": 71927
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 71954
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 71994
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 72018
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 72207
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 72535
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 72591
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 72900
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 72923
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 72968
+        },
+        {
+          "placeId": "570106",
+          "name": "Argives",
+          "charOffset": 73061
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 73082
+        },
+        {
+          "placeId": "579844",
+          "name": "Aegina",
+          "charOffset": 73119
+        },
+        {
+          "placeId": "570106",
+          "name": "Argives",
+          "charOffset": 73131
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 73155
+        },
+        {
+          "placeId": "570228",
+          "name": "Epidaurus",
+          "charOffset": 73186
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 73244
+        },
+        {
+          "placeId": "570106",
+          "name": "Argives",
+          "charOffset": 73413
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 73425
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 73445
+        },
+        {
+          "placeId": "579888",
+          "name": "Attica",
+          "charOffset": 73524
+        },
+        {
+          "placeId": "570106",
+          "name": "Argives",
+          "charOffset": 73540
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 73619
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 73645
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 73825
+        },
+        {
+          "placeId": "579844",
+          "name": "Aegina",
+          "charOffset": 73905
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 74140
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionian",
+          "charOffset": 74324
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 74355
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinthian",
+          "charOffset": 74416
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "places": [
+        {
+          "placeId": "550597",
+          "name": "Ionian",
+          "charOffset": 74609
+        },
+        {
+          "placeId": "991381",
+          "name": "Carian",
+          "charOffset": 74621
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greece",
+          "charOffset": 74663
+        },
+        {
+          "placeId": "570106",
+          "name": "Argives",
+          "charOffset": 74723
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 74735
+        },
+        {
+          "placeId": "579888",
+          "name": "Attic",
+          "charOffset": 75009
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "places": [
+        {
+          "placeId": "570106",
+          "name": "Argos",
+          "charOffset": 75200
+        },
+        {
+          "placeId": "579844",
+          "name": "Aegina",
+          "charOffset": 75210
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 75285
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 75314
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 75336
+        },
+        {
+          "placeId": "541138",
+          "name": "Thebans",
+          "charOffset": 75384
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 75402
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotians",
+          "charOffset": 75444
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 75507
+        },
+        {
+          "placeId": "579888",
+          "name": "Attica",
+          "charOffset": 75555
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 75567
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 75636
+        },
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 75737
+        },
+        {
+          "placeId": "579844",
+          "name": "Aegina",
+          "charOffset": 75830
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 76058
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "places": [
+        {
+          "placeId": "579844",
+          "name": "Aeginetans",
+          "charOffset": 76279
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemon",
+          "charOffset": 76396
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 76435
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 76716
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 76908
+        },
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 77007
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 77023
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 77078
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "places": [
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 77303
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 77362
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 77450
+        },
+        {
+          "placeId": "550877",
+          "name": "Sigeum",
+          "charOffset": 77686
+        },
+        {
+          "placeId": "501434",
+          "name": "Hellespont",
+          "charOffset": 77700
+        },
+        {
+          "placeId": "570685",
+          "name": "Spartans",
+          "charOffset": 77779
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 78051
+        },
+        {
+          "placeId": "540689",
+          "name": "Boeotia",
+          "charOffset": 78336
+        },
+        {
+          "placeId": "540703",
+          "name": "Chalcis",
+          "charOffset": 78348
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 78719
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "places": [
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 78797
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinthian",
+          "charOffset": 78925
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 79108
+        },
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 79586
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinthian",
+          "charOffset": 79758
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 80286
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinth",
+          "charOffset": 80579
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinth",
+          "charOffset": 80705
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinthians",
+          "charOffset": 80996
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinth",
+          "charOffset": 81071
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinth",
+          "charOffset": 82646
+        },
+        {
+          "placeId": "540726",
+          "name": "Delphi",
+          "charOffset": 83427
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinth",
+          "charOffset": 83480
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinth",
+          "charOffset": 83622
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinthians",
+          "charOffset": 83808
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 84156
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinth",
+          "charOffset": 84515
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinth",
+          "charOffset": 84808
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinth",
+          "charOffset": 85490
+        },
+        {
+          "placeId": "570030",
+          "name": "Acheron",
+          "charOffset": 85613
+        },
+        {
+          "placeId": "531117",
+          "name": "Thesprotia",
+          "charOffset": 85624
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinthian",
+          "charOffset": 86264
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaimonians",
+          "charOffset": 86715
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinthians",
+          "charOffset": 86788
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Hellas",
+          "charOffset": 86965
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinthians",
+          "charOffset": 87146
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "places": [
+        {
+          "placeId": "570182",
+          "name": "Corinth",
+          "charOffset": 87221
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinthians",
+          "charOffset": 87317
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 87444
+        },
+        {
+          "placeId": "570182",
+          "name": "Corinthians",
+          "charOffset": 87699
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonians",
+          "charOffset": 87727
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greek",
+          "charOffset": 87756
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "places": [
+        {
+          "placeId": "491656",
+          "name": "Macedonians",
+          "charOffset": 87860
+        },
+        {
+          "placeId": "1332",
+          "name": "Thessalians",
+          "charOffset": 87902
+        },
+        {
+          "placeId": "550877",
+          "name": "Sigeum",
+          "charOffset": 87964
+        },
+        {
+          "placeId": "550763",
+          "name": "Mytilenaeans",
+          "charOffset": 88030
+        },
+        {
+          "placeId": "570106",
+          "name": "Argive",
+          "charOffset": 88124
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 88298
+        },
+        {
+          "placeId": "550877",
+          "name": "Sigeum",
+          "charOffset": 88311
+        },
+        {
+          "placeId": "550763",
+          "name": "Mytilenaeans",
+          "charOffset": 88326
+        },
+        {
+          "placeId": "550401",
+          "name": "Achilleum",
+          "charOffset": 88342
+        },
+        {
+          "placeId": "550763",
+          "name": "Mytilenaeans",
+          "charOffset": 88357
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 88409
+        },
+        {
+          "placeId": "550406",
+          "name": "Aeolians",
+          "charOffset": 88452
+        },
+        {
+          "placeId": "550595",
+          "name": "Ilium",
+          "charOffset": 88500
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greeks",
+          "charOffset": 88545
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 88744
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 88850
+        },
+        {
+          "placeId": "550877",
+          "name": "Sigeum",
+          "charOffset": 88899
+        },
+        {
+          "placeId": "geonames-256866",
+          "name": "Mytilene",
+          "charOffset": 88958
+        },
+        {
+          "placeId": "550763",
+          "name": "Mytilenaeans",
+          "charOffset": 89041
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 89058
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "places": [
+        {
+          "placeId": "550877",
+          "name": "Sigeum",
+          "charOffset": 89289
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 89313
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemon",
+          "charOffset": 89358
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 89418
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 89476
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 89577
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 89622
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 89642
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 89675
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 89806
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "places": [
+        {
+          "placeId": "geonames-130758",
+          "name": "Persia",
+          "charOffset": 89938
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 89967
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persia",
+          "charOffset": 90036
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesian",
+          "charOffset": 90065
+        },
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 90087
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemonian",
+          "charOffset": 90111
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 90134
+        },
+        {
+          "placeId": "570685",
+          "name": "Sparta",
+          "charOffset": 90267
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 90315
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesians",
+          "charOffset": 90427
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 90456
+        },
+        {
+          "placeId": "570406",
+          "name": "Lacedaemon",
+          "charOffset": 90766
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 90816
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 90844
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 90908
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 90971
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Greeks",
+          "charOffset": 91065
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "places": [
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 91149
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 91221
+        },
+        {
+          "placeId": "609502",
+          "name": "Phrygia",
+          "charOffset": 91326
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 91342
+        },
+        {
+          "placeId": "501629",
+          "name": "Strymon",
+          "charOffset": 91386
+        },
+        {
+          "placeId": "609502",
+          "name": "Phrygian",
+          "charOffset": 91427
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 91498
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonia",
+          "charOffset": 91542
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 91594
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 91672
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 91840
+        },
+        {
+          "placeId": "560221",
+          "name": "sea",
+          "charOffset": 92013
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 92044
+        },
+        {
+          "placeId": "550497",
+          "name": "Chios",
+          "charOffset": 92070
+        },
+        {
+          "placeId": "550497",
+          "name": "Chios",
+          "charOffset": 92102
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 92130
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 92204
+        },
+        {
+          "placeId": "550497",
+          "name": "Chios",
+          "charOffset": 92221
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 92243
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonians",
+          "charOffset": 92269
+        },
+        {
+          "placeId": "550497",
+          "name": "Chios",
+          "charOffset": 92328
+        },
+        {
+          "placeId": "550497",
+          "name": "Chians",
+          "charOffset": 92341
+        },
+        {
+          "placeId": "550696",
+          "name": "Lesbos",
+          "charOffset": 92351
+        },
+        {
+          "placeId": "550696",
+          "name": "Lesbians",
+          "charOffset": 92377
+        },
+        {
+          "placeId": "501402",
+          "name": "Doriscus",
+          "charOffset": 92389
+        },
+        {
+          "placeId": "491680",
+          "name": "Paeonia",
+          "charOffset": 92441
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 92459
+        },
+        {
+          "placeId": "579925",
+          "name": "Eretrians",
+          "charOffset": 92530
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 92578
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesians",
+          "charOffset": 92596
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesians",
+          "charOffset": 92655
+        },
+        {
+          "placeId": "579925",
+          "name": "Eretrians",
+          "charOffset": 92697
+        },
+        {
+          "placeId": "540703",
+          "name": "Chalcis",
+          "charOffset": 92726
+        },
+        {
+          "placeId": "540703",
+          "name": "Chalcidians",
+          "charOffset": 92768
+        },
+        {
+          "placeId": "579925",
+          "name": "Eretrians",
+          "charOffset": 92792
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesians",
+          "charOffset": 92806
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 92912
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 92976
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesians",
+          "charOffset": 93028
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "places": [
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 93128
+        },
+        {
+          "placeId": "599612",
+          "name": "Ephesus",
+          "charOffset": 93148
+        },
+        {
+          "placeId": "599725",
+          "name": "Coresus",
+          "charOffset": 93198
+        },
+        {
+          "placeId": "599612",
+          "name": "Ephesian",
+          "charOffset": 93215
+        },
+        {
+          "placeId": "599612",
+          "name": "Ephesians",
+          "charOffset": 93279
+        },
+        {
+          "placeId": "550491",
+          "name": "Caicus",
+          "charOffset": 93353
+        },
+        {
+          "placeId": "550937",
+          "name": "Tmolus",
+          "charOffset": 93384
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 93405
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "places": [
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 93647
+        },
+        {
+          "placeId": "550701",
+          "name": "Lydians",
+          "charOffset": 93877
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 93897
+        },
+        {
+          "placeId": "550794",
+          "name": "Pactolus",
+          "charOffset": 94093
+        },
+        {
+          "placeId": "550937",
+          "name": "Tmolus",
+          "charOffset": 94168
+        },
+        {
+          "placeId": "550575",
+          "name": "Hermus",
+          "charOffset": 94201
+        },
+        {
+          "placeId": "560221",
+          "name": "sea",
+          "charOffset": 94239
+        },
+        {
+          "placeId": "550794",
+          "name": "Pactolus",
+          "charOffset": 94286
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 94352
+        },
+        {
+          "placeId": "550937",
+          "name": "Tmolus",
+          "charOffset": 94505
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "places": [
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 94588
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 94668
+        },
+        {
+          "placeId": "geonames-390903",
+          "name": "Hellas",
+          "charOffset": 94739
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 94765
+        },
+        {
+          "placeId": "857148",
+          "name": "Halys",
+          "charOffset": 94810
+        },
+        {
+          "placeId": "550701",
+          "name": "Lydians",
+          "charOffset": 94884
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 94928
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 94949
+        },
+        {
+          "placeId": "599612",
+          "name": "Ephesus",
+          "charOffset": 95008
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 95027
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 95110
+        },
+        {
+          "placeId": "579925",
+          "name": "Eretrians",
+          "charOffset": 95194
+        },
+        {
+          "placeId": "570348",
+          "name": "Ceos",
+          "charOffset": 95287
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 95306
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 95444
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 95491
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenian",
+          "charOffset": 95634
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 95655
+        },
+        {
+          "placeId": "501434",
+          "name": "Hellespont",
+          "charOffset": 95796
+        },
+        {
+          "placeId": "520985",
+          "name": "Byzantium",
+          "charOffset": 95816
+        },
+        {
+          "placeId": "981526",
+          "name": "Hellespont",
+          "charOffset": 95915
+        },
+        {
+          "placeId": "991381",
+          "name": "Caria",
+          "charOffset": 95973
+        },
+        {
+          "placeId": "638796",
+          "name": "Caunus",
+          "charOffset": 95989
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "places": [
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 96093
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprians",
+          "charOffset": 96111
+        },
+        {
+          "placeId": "707462",
+          "name": "Amathus",
+          "charOffset": 96180
+        },
+        {
+          "placeId": "903080",
+          "name": "Medes",
+          "charOffset": 96221
+        },
+        {
+          "placeId": "707617",
+          "name": "Salaminians",
+          "charOffset": 96328
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 96510
+        },
+        {
+          "placeId": "707617",
+          "name": "Salamis",
+          "charOffset": 96694
+        },
+        {
+          "placeId": "903080",
+          "name": "Medes",
+          "charOffset": 96795
+        },
+        {
+          "placeId": "707617",
+          "name": "Salamis",
+          "charOffset": 96828
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 96851
+        },
+        {
+          "placeId": "707462",
+          "name": "Amathusians",
+          "charOffset": 96891
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "places": [
+        {
+          "placeId": "707462",
+          "name": "Amathus",
+          "charOffset": 97034
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 97079
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 97118
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 97132
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesian",
+          "charOffset": 97165
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 97285
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 97399
+        },
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 97606
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "places": [
+        {
+          "placeId": "579885",
+          "name": "Athenians",
+          "charOffset": 97738
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesian",
+          "charOffset": 97816
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 97953
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 98049
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 98142
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesians",
+          "charOffset": 98869
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 99194
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 99271
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 99324
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 99433
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 99628
+        },
+        {
+          "placeId": "472014",
+          "name": "Sardo",
+          "charOffset": 99652
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "places": [
+        {
+          "placeId": "912936",
+          "name": "Susa",
+          "charOffset": 99850
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "places": [
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 99933
+        },
+        {
+          "placeId": "560221",
+          "name": "sea",
+          "charOffset": 100080
+        },
+        {
+          "placeId": "707617",
+          "name": "Salamis",
+          "charOffset": 100135
+        },
+        {
+          "placeId": "707462",
+          "name": "Amathusians",
+          "charOffset": 100161
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 100212
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 100249
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 100269
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 100340
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 100376
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 100445
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 100461
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 100477
+        },
+        {
+          "placeId": "628957",
+          "name": "Cilicia",
+          "charOffset": 100501
+        },
+        {
+          "placeId": "707617",
+          "name": "Salamis",
+          "charOffset": 100521
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 100546
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "places": [
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 100619
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 100675
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 100718
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 100746
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprians",
+          "charOffset": 100758
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 100811
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 100827
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 100919
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 101050
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 101108
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 101169
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 101179
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 101216
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 101271
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 101331
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 101356
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "places": [
+        {
+          "placeId": "903080",
+          "name": "Medians",
+          "charOffset": 101560
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 101589
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 101621
+        },
+        {
+          "placeId": "707617",
+          "name": "Salamis",
+          "charOffset": 101669
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprian",
+          "charOffset": 101682
+        },
+        {
+          "placeId": "707617",
+          "name": "Salaminians",
+          "charOffset": 101752
+        },
+        {
+          "placeId": "707624",
+          "name": "Solians",
+          "charOffset": 101768
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 101788
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprians",
+          "charOffset": 101820
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "places": [
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 101914
+        },
+        {
+          "placeId": "991381",
+          "name": "Carian",
+          "charOffset": 102072
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "places": [
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 103058
+        },
+        {
+          "placeId": "678334",
+          "name": "Phoenicians",
+          "charOffset": 103138
+        },
+        {
+          "placeId": "599926",
+          "name": "Samnians",
+          "charOffset": 103166
+        },
+        {
+          "placeId": "991381",
+          "name": "Carian",
+          "charOffset": 103458
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "places": [
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 103571
+        },
+        {
+          "placeId": "707549",
+          "name": "Curium",
+          "charOffset": 103677
+        },
+        {
+          "placeId": "570106",
+          "name": "Argive",
+          "charOffset": 103698
+        },
+        {
+          "placeId": "707617",
+          "name": "Salaminians",
+          "charOffset": 103797
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 103850
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprians",
+          "charOffset": 103902
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprian",
+          "charOffset": 104020
+        },
+        {
+          "placeId": "707624",
+          "name": "Solians",
+          "charOffset": 104063
+        },
+        {
+          "placeId": "579885",
+          "name": "Athens",
+          "charOffset": 104136
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 104160
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "places": [
+        {
+          "placeId": "707462",
+          "name": "Amathusians",
+          "charOffset": 104239
+        },
+        {
+          "placeId": "707462",
+          "name": "Amathus",
+          "charOffset": 104286
+        },
+        {
+          "placeId": "707462",
+          "name": "Amathusians",
+          "charOffset": 104493
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "places": [
+        {
+          "placeId": "707462",
+          "name": "Amathusians",
+          "charOffset": 104746
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 104809
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 104847
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprus",
+          "charOffset": 104915
+        },
+        {
+          "placeId": "707617",
+          "name": "Salamis",
+          "charOffset": 104945
+        },
+        {
+          "placeId": "707617",
+          "name": "Salaminians",
+          "charOffset": 104963
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 105054
+        },
+        {
+          "placeId": "707498",
+          "name": "Cyprian",
+          "charOffset": 105092
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 105140
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "places": [
+        {
+          "placeId": "707498",
+          "name": "Cyprians",
+          "charOffset": 105224
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 105338
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 105405
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 105432
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "places": [
+        {
+          "placeId": "501434",
+          "name": "Hellespont",
+          "charOffset": 105590
+        },
+        {
+          "placeId": "501393",
+          "name": "Dardanus",
+          "charOffset": 105610
+        },
+        {
+          "placeId": "501325",
+          "name": "Abydus",
+          "charOffset": 105620
+        },
+        {
+          "placeId": "501556",
+          "name": "Percote",
+          "charOffset": 105628
+        },
+        {
+          "placeId": "501570",
+          "name": "Lampsacus",
+          "charOffset": 105637
+        },
+        {
+          "placeId": "501544",
+          "name": "Paesus",
+          "charOffset": 105652
+        },
+        {
+          "placeId": "501544",
+          "name": "Paesus",
+          "charOffset": 105706
+        },
+        {
+          "placeId": "511354",
+          "name": "Parius",
+          "charOffset": 105721
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 105755
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 105794
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 105824
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "places": [
+        {
+          "placeId": "981526",
+          "name": "Hellespont",
+          "charOffset": 105875
+        },
+        {
+          "placeId": "991381",
+          "name": "Caria",
+          "charOffset": 105910
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 105975
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 106021
+        },
+        {
+          "placeId": "599789",
+          "name": "Marsyas",
+          "charOffset": 106101
+        },
+        {
+          "placeId": "599665",
+          "name": "Idria",
+          "charOffset": 106142
+        },
+        {
+          "placeId": "599777",
+          "name": "Maeander",
+          "charOffset": 106168
+        },
+        {
+          "placeId": "599716",
+          "name": "Cindya",
+          "charOffset": 106309
+        },
+        {
+          "placeId": "628957",
+          "name": "Cilicia",
+          "charOffset": 106387
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 106417
+        },
+        {
+          "placeId": "599777",
+          "name": "Maeander",
+          "charOffset": 106442
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 106699
+        },
+        {
+          "placeId": "658440",
+          "name": "Cilicians",
+          "charOffset": 106720
+        },
+        {
+          "placeId": "599777",
+          "name": "Maeander",
+          "charOffset": 106746
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 106799
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "places": [
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 106933
+        },
+        {
+          "placeId": "599777",
+          "name": "Maeander",
+          "charOffset": 106971
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 106994
+        },
+        {
+          "placeId": "668310",
+          "name": "Marsyas",
+          "charOffset": 107029
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 107042
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 107145
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 107200
+        },
+        {
+          "placeId": "599745",
+          "name": "Labraunda",
+          "charOffset": 107303
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 107362
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "places": [
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 107582
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesians",
+          "charOffset": 107650
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 107710
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persian",
+          "charOffset": 107804
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "places": [
+        {
+          "placeId": "599799",
+          "name": "Milesians",
+          "charOffset": 107918
+        },
+        {
+          "placeId": "991381",
+          "name": "Carians",
+          "charOffset": 107961
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 108047
+        },
+        {
+          "placeId": "599873",
+          "name": "Pedasus",
+          "charOffset": 108139
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 108152
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "places": [
+        {
+          "placeId": "599809",
+          "name": "Mylasas",
+          "charOffset": 108347
+        },
+        {
+          "placeId": "geonames-130758",
+          "name": "Persians",
+          "charOffset": 108405
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionians",
+          "charOffset": 108486
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 108509
+        },
+        {
+          "placeId": "511381",
+          "name": "Propontis",
+          "charOffset": 108540
+        },
+        {
+          "placeId": "511291",
+          "name": "Cius",
+          "charOffset": 108566
+        },
+        {
+          "placeId": "511328",
+          "name": "Mysia",
+          "charOffset": 108574
+        },
+        {
+          "placeId": "501434",
+          "name": "Hellespont",
+          "charOffset": 108651
+        },
+        {
+          "placeId": "991381",
+          "name": "Caria",
+          "charOffset": 108687
+        },
+        {
+          "placeId": "511381",
+          "name": "Propontis",
+          "charOffset": 108706
+        },
+        {
+          "placeId": "981526",
+          "name": "Hellespont",
+          "charOffset": 108740
+        },
+        {
+          "placeId": "550406",
+          "name": "Aeolians",
+          "charOffset": 108785
+        },
+        {
+          "placeId": "550595",
+          "name": "Ilium",
+          "charOffset": 108824
+        },
+        {
+          "placeId": "550548",
+          "name": "Gergithae",
+          "charOffset": 108842
+        },
+        {
+          "placeId": "550595",
+          "name": "ancient Trojans",
+          "charOffset": 108870
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "places": [
+        {
+          "placeId": "550944",
+          "name": "Troad",
+          "charOffset": 108977
+        },
+        {
+          "placeId": "550867",
+          "name": "Sardis",
+          "charOffset": 109046
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 109125
+        },
+        {
+          "placeId": "550406",
+          "name": "Aeolian",
+          "charOffset": 109139
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "places": [
+        {
+          "placeId": "550650",
+          "name": "Clazomenae",
+          "charOffset": 109183
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 109197
+        },
+        {
+          "placeId": "550506",
+          "name": "Cyme",
+          "charOffset": 109208
+        },
+        {
+          "placeId": "599799",
+          "name": "Milesian",
+          "charOffset": 109246
+        },
+        {
+          "placeId": "550597",
+          "name": "Ionia",
+          "charOffset": 109340
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 109723
+        },
+        {
+          "placeId": "472014",
+          "name": "Sardo",
+          "charOffset": 109809
+        },
+        {
+          "placeId": "501520",
+          "name": "Myrcinus",
+          "charOffset": 109819
+        },
+        {
+          "placeId": "501409",
+          "name": "Edonia",
+          "charOffset": 109831
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "places": [
+        {
+          "placeId": "599764",
+          "name": "Leros",
+          "charOffset": 110091
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "places": [
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 110138
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 110199
+        },
+        {
+          "placeId": "501520",
+          "name": "Myrcinus",
+          "charOffset": 110302
+        },
+        {
+          "placeId": "599799",
+          "name": "Miletus",
+          "charOffset": 110337
+        },
+        {
+          "placeId": "1001889",
+          "name": "Thrace",
+          "charOffset": 110403
+        },
+        {
+          "placeId": "1001889",
+          "name": "Thracians",
+          "charOffset": 110547
+        },
+        {
+          "placeId": "1001889",
+          "name": "Thracians",
+          "charOffset": 110619
+        }
+      ]
+    }
+  ]
+}
