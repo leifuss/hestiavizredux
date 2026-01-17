@@ -10,7 +10,10 @@ function TextPanel({
   selectedPlace,
   highlightedPlaces,
   onChapterChange,
-  onPlaceClick
+  onPlaceClick,
+  language,
+  onLanguageToggle,
+  greekText
 }) {
   const textRef = useRef(null)
 
@@ -136,6 +139,13 @@ function TextPanel({
           <h2 style={{ display: 'inline' }}>{bookInfo?.title || `Book ${bookData.id}`}</h2>
         </div>
         <div className="chapter-nav">
+          <button
+            onClick={onLanguageToggle}
+            className="language-toggle"
+            title="Switch between English and Greek text"
+          >
+            {language === 'english' ? 'Ελληνικά' : 'English'}
+          </button>
           <button onClick={handlePrev} disabled={currentIndex <= 0}>
             ← Prev
           </button>
@@ -157,8 +167,13 @@ function TextPanel({
           <div className="chapter-number ui-text">
             Chapter {currentChapter} (of {chapterIds.length})
           </div>
-          <div className="chapter-text">
-            {annotatedText?.map((segment, index) => {
+          {language === 'greek' ? (
+            <div className="chapter-text greek-text">
+              {greekText || 'Loading Greek text...'}
+            </div>
+          ) : (
+            <div className="chapter-text">
+              {annotatedText?.map((segment, index) => {
               if (segment.type === 'text') {
                 return <span key={index}>{segment.content}</span>
               }
@@ -202,9 +217,10 @@ function TextPanel({
                 </span>
               )
             })}
-          </div>
+            </div>
+          )}
 
-          {unlocatedPlaces.length > 0 && (
+          {language === 'english' && unlocatedPlaces.length > 0 && (
             <div className="unlocated-places">
               <h4>Places without known coordinates ({unlocatedPlaces.length})</h4>
               <div className="unlocated-list">

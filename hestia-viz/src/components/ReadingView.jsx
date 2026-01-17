@@ -12,6 +12,8 @@ function ReadingView({ booksIndex, placesData, bookTexts }) {
   const [currentChapter, setCurrentChapter] = useState(1)
   const [selectedPlace, setSelectedPlace] = useState(null)
   const [highlightedPlaces, setHighlightedPlaces] = useState(new Set())
+  const [language, setLanguage] = useState('english') // 'english' or 'greek'
+  const [greekText, setGreekText] = useState({}) // Cache for Greek text by chapter
 
   const bookNum = parseInt(bookId, 10)
   const bookInfo = booksIndex?.books?.find(b => b.id === bookNum)
@@ -96,6 +98,49 @@ function ReadingView({ booksIndex, placesData, bookTexts }) {
     navigate(`/place/${placeId}`)
   }
 
+  const handleLanguageToggle = () => {
+    const newLang = language === 'english' ? 'greek' : 'english'
+    setLanguage(newLang)
+
+    // Fetch Greek text if switching to Greek and not cached
+    if (newLang === 'greek' && !greekText[currentChapter]) {
+      fetchGreekText(bookNum, currentChapter)
+    }
+  }
+
+  const fetchGreekText = async (bookId, chapter) => {
+    try {
+      // Perseus API endpoint for Herodotus Greek text
+      // The CTS URN for Herodotus is: urn:cts:greekLit:tlg0016.tlg001.perseus-grc2
+      const urn = `urn:cts:greekLit:tlg0016.tlg001.perseus-grc2:${bookId}.${chapter}`
+      const apiUrl = `https://cts.perseids.org/api/cts/?request=GetPassage&urn=${urn}`
+
+      const response = await fetch(apiUrl)
+      const text = await response.text()
+
+      // Parse XML response to extract Greek text
+      const parser = new DOMParser()
+      const xmlDoc = parser.parseFromString(text, 'text/xml')
+      const passageNode = xmlDoc.querySelector('passage') || xmlDoc.querySelector('TEI')
+
+      let greekContent = ''
+      if (passageNode) {
+        greekContent = passageNode.textContent.trim()
+      }
+
+      setGreekText(prev => ({
+        ...prev,
+        [chapter]: greekContent || 'Greek text not available for this chapter.'
+      }))
+    } catch (error) {
+      console.error('Error fetching Greek text:', error)
+      setGreekText(prev => ({
+        ...prev,
+        [chapter]: 'Error loading Greek text. Please try again.'
+      }))
+    }
+  }
+
   if (!bookData) {
     return <div className="loading">Book not found...</div>
   }
@@ -115,6 +160,9 @@ function ReadingView({ booksIndex, placesData, bookTexts }) {
         highlightedPlaces={highlightedPlaces}
         onChapterChange={handleChapterChange}
         onPlaceClick={handlePlaceClick}
+        language={language}
+        onLanguageToggle={handleLanguageToggle}
+        greekText={greekText[currentChapter]}
       />
       <MapPanel
         currentPlaces={currentPlaces}

@@ -352,6 +352,18 @@ a:hover {
   cursor: not-allowed;
 }
 
+.chapter-nav .language-toggle {
+  background: var(--color-gold);
+  border-color: var(--color-gold);
+  color: white;
+  font-weight: 600;
+}
+
+.chapter-nav .language-toggle:hover {
+  background: var(--color-gold-light);
+  border-color: var(--color-gold-light);
+}
+
 .chapter-nav select {
   padding: 0.3rem 0.5rem;
   border: 1px solid var(--color-brown-light);
@@ -361,12 +373,14 @@ a:hover {
   color: var(--color-brown-dark);
 }
 
+/* Text content area */
 .text-content {
   flex: 1;
   overflow-y: auto;
   padding: 1.5rem 2rem;
   font-size: 1.1rem;
   line-height: 1.8;
+  min-height: 0; /* Ensure flex child can shrink properly */
 }
 
 .chapter-section {
@@ -383,6 +397,13 @@ a:hover {
 
 .chapter-text {
   text-align: justify;
+}
+
+.greek-text {
+  font-family: 'Gentium Plus', 'Times New Roman', serif;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: var(--color-brown-dark);
 }
 
 /* Place highlighting in text */
@@ -452,7 +473,9 @@ a:hover {
 /* Map Panel */
 .map-panel {
   width: 50%;
+  height: 100%;
   position: relative;
+  min-height: 0; /* Ensure proper flexbox sizing */
 }
 
 .map-panel .leaflet-container {
