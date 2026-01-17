@@ -108,6 +108,13 @@ function ReadingView({ booksIndex, placesData, bookTexts }) {
     }
   }
 
+  // Fetch Greek text when chapter changes and we're in Greek mode
+  useEffect(() => {
+    if (language === 'greek' && !greekText[currentChapter]) {
+      fetchGreekText(bookNum, currentChapter)
+    }
+  }, [currentChapter, language, greekText, bookNum])
+
   const fetchGreekText = async (bookId, chapter) => {
     try {
       // Perseus API endpoint for Herodotus Greek text
