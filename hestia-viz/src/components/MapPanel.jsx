@@ -1,8 +1,10 @@
 import { useEffect, useMemo } from 'react'
-import { MapContainer, TileLayer, CircleMarker, Tooltip, Marker, Polyline, useMap } from 'react-leaflet'
+import { MapContainer, TileLayer, CircleMarker, Tooltip, Marker, Polyline, useMap, LayersControl } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { riverData } from '../data/rivers.js'
+
+const { BaseLayer } = LayersControl
 
 // Helper to determine place category
 function getPlaceCategory(place) {
@@ -334,12 +336,32 @@ function MapPanel({
         style={{ height: '100%', width: '100%' }}
         scrollWheelZoom={true}
       >
-        <TileLayer
-          attribution='&copy; Esri'
-          url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-          maxZoom={19}
-          opacity={0.7}
-        />
+        <LayersControl position="topright">
+          <BaseLayer checked name="Satellite Imagery">
+            <TileLayer
+              attribution='&copy; Esri'
+              url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+              maxZoom={19}
+              opacity={0.7}
+            />
+          </BaseLayer>
+
+          <BaseLayer name="Modern Political Map">
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              maxZoom={19}
+            />
+          </BaseLayer>
+
+          <BaseLayer name="CAWM Ancient World">
+            <TileLayer
+              attribution='&copy; <a href="https://cawm.lib.uiowa.edu/">CAWM</a> (CC BY 4.0)'
+              url="http://cawm.lib.uiowa.edu/tiles/{z}/{x}/{y}.png"
+              maxZoom={11}
+            />
+          </BaseLayer>
+        </LayersControl>
 
         <MapController
           selectedPlace={selectedPlace}

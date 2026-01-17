@@ -1,7 +1,9 @@
 import { useState, useMemo, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, CircleMarker, Popup, LayersControl } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
+
+const { BaseLayer } = LayersControl
 
 function SummaryView({ booksIndex, placesData }) {
   const navigate = useNavigate()
@@ -164,12 +166,33 @@ function SummaryView({ booksIndex, placesData }) {
           style={{ height: '100%', width: '100%' }}
           scrollWheelZoom={true}
         >
-          <TileLayer
-            attribution='&copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-            url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-            maxZoom={19}
-            opacity={0.7}
-          />
+          <LayersControl position="topright">
+            <BaseLayer checked name="Satellite Imagery">
+              <TileLayer
+                attribution='&copy; Esri'
+                url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+                maxZoom={19}
+                opacity={0.7}
+              />
+            </BaseLayer>
+
+            <BaseLayer name="Modern Political Map">
+              <TileLayer
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                maxZoom={19}
+              />
+            </BaseLayer>
+
+            <BaseLayer name="CAWM Ancient World">
+              <TileLayer
+                attribution='&copy; <a href="https://cawm.lib.uiowa.edu/">CAWM</a> (CC BY 4.0)'
+                url="http://cawm.lib.uiowa.edu/tiles/{z}/{x}/{y}.png"
+                maxZoom={11}
+              />
+            </BaseLayer>
+          </LayersControl>
+
           {bookPlaces.map(place => (
             <CircleMarker
               key={place.id}
