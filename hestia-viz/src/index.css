@@ -264,6 +264,7 @@ a:hover {
 .summary-map {
   flex: 1;
   position: relative;
+  min-height: 0; /* Fix for flex container with 100% height child */
 }
 
 /* Reading View */

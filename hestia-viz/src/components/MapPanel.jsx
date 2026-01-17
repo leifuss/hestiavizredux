@@ -1,8 +1,7 @@
 import { useEffect, useMemo } from 'react'
-import { MapContainer, TileLayer, CircleMarker, Tooltip, Marker, Polyline, useMap, LayersControl } from 'react-leaflet'
+import { MapContainer, TileLayer, CircleMarker, Tooltip, Marker, useMap, LayersControl } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import { riverData } from '../data/rivers.js'
 
 const { BaseLayer } = LayersControl
 
@@ -54,36 +53,6 @@ function MapController({ selectedPlace, placesData }) {
   }, [selectedPlace, placesData, map])
 
   return null
-}
-
-// Background rivers from WISE shapefile
-function BackgroundRivers() {
-  return (
-    <>
-      {riverData.map((river, idx) => {
-        const positions = river.c.map(([lng, lat]) => [lat, lng])
-        // Width based on length: >400km=2.5, >200km=2, else=1.5
-        const weight = river.l > 400 ? 2.5 : river.l > 200 ? 2 : 1.5
-        return (
-          <Polyline
-            key={`river-${idx}`}
-            positions={positions}
-            pathOptions={{
-              color: '#4a90d9',
-              weight: weight,
-              opacity: 0.6,
-              lineCap: 'round',
-              lineJoin: 'round'
-            }}
-          >
-            <Tooltip direction="top" offset={[0, -5]} opacity={0.9} sticky>
-              <div style={{ fontStyle: 'italic', color: '#2563eb' }}>{river.n}</div>
-            </Tooltip>
-          </Polyline>
-        )
-      })}
-    </>
-  )
 }
 
 // Text label component for regions/ethnoi - improved readability
@@ -368,9 +337,6 @@ function MapPanel({
           placesData={placesData}
         />
 
-        {/* Background rivers - always visible */}
-        <BackgroundRivers />
-
         {/* Memory rivers */}
         {categorizedMemory.rivers.map(place => (
           <RiverMarker
@@ -495,11 +461,7 @@ function MapPanel({
         </div>
         <div className="legend-item">
           <span className="legend-dot" style={{ background: '#2563eb' }} />
-          <span>River (in text)</span>
-        </div>
-        <div className="legend-item">
-          <span className="legend-line" style={{ background: '#4a90d9' }} />
-          <span>River (map)</span>
+          <span>River</span>
         </div>
         <div className="legend-item">
           <span style={{
