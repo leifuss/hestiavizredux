@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import { MapContainer, TileLayer, CircleMarker, Popup, LayersControl } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 
@@ -9,6 +9,10 @@ function SummaryView({ booksIndex, placesData }) {
   const navigate = useNavigate()
   const [selectedBook, setSelectedBook] = useState(1)
   const [bookPlaces, setBookPlaces] = useState([])
+
+  const handlePlaceClick = (placeId) => {
+    navigate(`/place/${placeId}`)
+  }
 
   // Calculate max place count for visualization
   const maxPlaces = useMemo(() => {
@@ -123,12 +127,22 @@ function SummaryView({ booksIndex, placesData }) {
                 color: '#fff',
                 weight: 2
               }}
+              eventHandlers={{
+                click: () => handlePlaceClick(place.id)
+              }}
             >
               <Popup>
                 <div className="popup-place-name">{place.name}</div>
                 {place.placeType && (
                   <div className="popup-place-type">{place.placeType}</div>
                 )}
+                <Link
+                  to={`/place/${place.id}`}
+                  className="ui-text"
+                  style={{ fontSize: '0.85rem', display: 'block', marginTop: '0.5rem' }}
+                >
+                  View details →
+                </Link>
               </Popup>
             </CircleMarker>
           ))}

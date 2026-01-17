@@ -584,6 +584,9 @@ a:hover {
 
 .place-detail-map {
   flex: 1;
+  height: 100%;
+  position: relative;
+  min-height: 0;
 }
 
 /* Leaflet customizations */
