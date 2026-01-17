@@ -2,6 +2,7 @@ import { Routes, Route, Link, useLocation } from 'react-router-dom'
 import SummaryView from './components/SummaryView'
 import ReadingView from './components/ReadingView'
 import PlaceDetailView from './components/PlaceDetailView'
+import AboutView from './components/AboutView'
 import { booksIndex, places, bookTexts } from './data'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   const placesData = places.places
 
   const isHome = location.pathname === '/' || location.pathname === ''
+  const isAbout = location.pathname === '/about'
 
   return (
     <div className="app-container">
@@ -21,6 +23,9 @@ function App() {
         <nav className="ui-text">
           <Link to="/" className={isHome ? 'active' : ''}>
             Books
+          </Link>
+          <Link to="/about" className={isAbout ? 'active' : ''}>
+            About
           </Link>
           <a
             href="https://pleiades.stoa.org/"
@@ -49,6 +54,10 @@ function App() {
                 placesData={placesData}
               />
             }
+          />
+          <Route
+            path="/about"
+            element={<AboutView />}
           />
           <Route
             path="/book/:bookId"
