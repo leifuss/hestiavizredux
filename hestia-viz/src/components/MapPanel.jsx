@@ -105,11 +105,19 @@ function TemporalMapLayer({ dateRange, isActive }) {
 
     console.log('Date range for filtering:', dateRange)
 
+    // Create a custom pane for vector tiles to ensure they render on top
+    if (!map.getPane('vectorTiles')) {
+      const pane = map.createPane('vectorTiles')
+      pane.style.zIndex = 650 // Above tile layers (400) but below overlays (600) and markers (700)
+      pane.style.pointerEvents = 'none' // Make non-interactive
+    }
+
     // OpenHistoricalMap vector tile URL
     const vectorTileUrl = 'https://vtiles.openhistoricalmap.org/maps/osm/{z}/{x}/{y}.pbf'
 
     // Create vector grid layer with temporal filtering
     const vectorGrid = L.vectorGrid.protobuf(vectorTileUrl, {
+      pane: 'vectorTiles',
       rendererFactory: L.canvas.tile,
       vectorTileLayerStyles: {
         // Only style boundaries - hide everything else
@@ -119,7 +127,7 @@ function TemporalMapLayer({ dateRange, isActive }) {
             stroke: true,
             color: '#8b7355',
             weight: 2,
-            opacity: 0.7,
+            opacity: 0.8,
             dashArray: '5, 5'
           }
         },
@@ -144,8 +152,9 @@ function TemporalMapLayer({ dateRange, isActive }) {
         const startDate = props.start_decdate
         const endDate = props.end_decdate
 
-        // If feature has no date properties, don't show it
+        // If feature has no date properties, don't show it (strict filtering)
         if (startDate === undefined && endDate === undefined) {
+          console.log('Excluding feature with no dates:', props.name || 'unnamed')
           return false
         }
 
@@ -153,25 +162,31 @@ function TemporalMapLayer({ dateRange, isActive }) {
         const rangeStart = dateRange.start
         const rangeEnd = dateRange.end
 
-        console.log('Feature dates:', { startDate, endDate, rangeStart, rangeEnd, props })
-
         // Show feature if it overlaps with our date range
         // Feature exists if: (feature_start <= range_end) AND (feature_end >= range_start)
+        let shouldShow = false
+
         if (startDate !== undefined && endDate !== undefined) {
-          const overlaps = startDate <= rangeEnd && endDate >= rangeStart
-          if (overlaps) {
-            console.log('Showing boundary:', props.name || 'unnamed', { startDate, endDate })
+          // Feature has both start and end dates
+          shouldShow = startDate <= rangeEnd && endDate >= rangeStart
+          if (shouldShow) {
+            console.log('Showing boundary (both dates):', props.name || 'unnamed', { startDate, endDate, rangeStart, rangeEnd })
           }
-          return overlaps
         } else if (startDate !== undefined) {
-          // Feature has only start date - show if it started before range ended
-          return startDate <= rangeEnd
+          // Feature has only start date - show if it started before our range ended
+          shouldShow = startDate <= rangeEnd
+          if (shouldShow) {
+            console.log('Showing boundary (start only):', props.name || 'unnamed', { startDate, rangeStart, rangeEnd })
+          }
         } else if (endDate !== undefined) {
-          // Feature has only end date - show if it ended after range started
-          return endDate >= rangeStart
+          // Feature has only end date - show if it ended after our range started
+          shouldShow = endDate >= rangeStart
+          if (shouldShow) {
+            console.log('Showing boundary (end only):', props.name || 'unnamed', { endDate, rangeStart, rangeEnd })
+          }
         }
 
-        return false
+        return shouldShow
       },
       interactive: false,
       maxNativeZoom: 14,
@@ -179,6 +194,7 @@ function TemporalMapLayer({ dateRange, isActive }) {
     })
 
     vectorGrid.addTo(map)
+    console.log('Vector grid layer added with pane:', 'vectorTiles')
 
     // Cleanup function to remove layer when component unmounts or becomes inactive
     return () => {
