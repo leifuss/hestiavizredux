@@ -1,0 +1,67 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Book 1: Clio",
+      "chapterCount": 216,
+      "maxChapterId": 216,
+      "placeCount": 1339
+    },
+    {
+      "id": 2,
+      "title": "Book 2: Euterpe",
+      "chapterCount": 182,
+      "maxChapterId": 182,
+      "placeCount": 905
+    },
+    {
+      "id": 3,
+      "title": "Book 3: Thalia",
+      "chapterCount": 160,
+      "maxChapterId": 160,
+      "placeCount": 808
+    },
+    {
+      "id": 4,
+      "title": "Book 4: Melpomene",
+      "chapterCount": 205,
+      "maxChapterId": 205,
+      "placeCount": 1287
+    },
+    {
+      "id": 5,
+      "title": "Book 5: Terpsichore",
+      "chapterCount": 125,
+      "maxChapterId": 126,
+      "placeCount": 1012
+    },
+    {
+      "id": 6,
+      "title": "Book 6: Erato",
+      "chapterCount": 139,
+      "maxChapterId": 140,
+      "placeCount": 1012
+    },
+    {
+      "id": 7,
+      "title": "Book 7: Polymnia",
+      "chapterCount": 237,
+      "maxChapterId": 239,
+      "placeCount": 786
+    },
+    {
+      "id": 8,
+      "title": "Book 8: Urania",
+      "chapterCount": 142,
+      "maxChapterId": 144,
+      "placeCount": 525
+    },
+    {
+      "id": 9,
+      "title": "Book 9: Calliope",
+      "chapterCount": 122,
+      "maxChapterId": 122,
+      "placeCount": 403
+    }
+  ]
+}
