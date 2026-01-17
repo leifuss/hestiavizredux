@@ -123,12 +123,15 @@ a:hover {
   flex: 1;
   overflow: hidden;
   display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 /* Summary View */
 .summary-view {
   display: flex;
   height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -265,6 +268,12 @@ a:hover {
   flex: 1;
   position: relative;
   min-height: 0; /* Fix for flex container with 100% height child */
+  height: 100%; /* Ensure map container has explicit height */
+}
+
+.summary-map .leaflet-container {
+  height: 100%;
+  width: 100%;
 }
 
 /* About View - standalone page */
@@ -652,6 +661,9 @@ a:hover {
 }
 
 /* Responsive */
+/* Responsive Design */
+
+/* Tablets and small laptops */
 @media (max-width: 1024px) {
   .reading-view {
     flex-direction: column;
@@ -664,6 +676,157 @@ a:hover {
   }
 
   .books-panel {
-    width: 300px;
+    width: 240px;
+    min-width: 200px;
+  }
+
+  .summary-map {
+    flex: 1;
+    min-height: 400px; /* Ensure map has minimum height */
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+  /* Header adjustments */
+  .app-header {
+    padding: 0.5rem 1rem;
+    flex-wrap: wrap;
+  }
+
+  .app-header h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+  .app-header nav {
+    font-size: 0.85rem;
+    width: 100%;
+    display: flex;
+    gap: 0.75rem;
+  }
+
+  .app-header nav a {
+    margin-left: 0;
+    flex: 1;
+    text-align: center;
+    padding: 0.4rem 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+  }
+
+  /* Summary view - stack vertically */
+  .summary-view {
+    flex-direction: column;
+  }
+
+  .books-panel {
+    width: 100%;
+    min-width: 100%;
+    max-height: 40vh;
+    border-right: none;
+    border-bottom: 1px solid var(--color-parchment-dark);
+    padding: 1rem;
+  }
+
+  .books-panel h2 {
+    font-size: 1.1rem;
+  }
+
+  .book-item {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .book-item h3 {
+    font-size: 1rem;
+  }
+
+  .book-item .book-stats {
+    font-size: 0.8rem;
+  }
+
+  .summary-map {
+    flex: 1;
+    min-height: 300px;
+    height: 60vh; /* Explicit height for mobile */
+  }
+
+  .summary-map .leaflet-container {
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  /* Reading view - stack vertically */
+  .reading-view {
+    flex-direction: column;
+  }
+
+  .text-panel,
+  .map-panel {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .text-header h2 {
+    font-size: 1rem;
+  }
+
+  .chapter-nav {
+    font-size: 0.85rem;
+  }
+
+  .chapter-nav button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  /* About view */
+  .about-view {
+    padding: 1rem;
+  }
+
+  .about-view .about-content {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .about-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .about-content h3 {
+    font-size: 0.95rem;
+  }
+
+  .about-content p,
+  .about-content ul {
+    font-size: 0.9rem;
+  }
+
+  /* Make touch targets bigger */
+  button, a, .book-item {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .app-header h1 {
+    font-size: 1rem;
+  }
+
+  .app-header nav {
+    font-size: 0.75rem;
+  }
+
+  .books-panel {
+    padding: 0.75rem;
+  }
+
+  .summary-map {
+    height: calc(100vh - 40vh - 120px); /* Account for header and books panel */
+    min-height: 250px;
   }
 }
