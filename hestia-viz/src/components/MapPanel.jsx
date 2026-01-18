@@ -115,96 +115,114 @@ function TemporalMapLayer({ dateRange, isActive }) {
     // OpenHistoricalMap vector tile URL
     const vectorTileUrl = 'https://vtiles.openhistoricalmap.org/maps/osm/{z}/{x}/{y}.pbf'
 
-    // Create vector grid layer with temporal filtering
+    const rangeStart = dateRange.start
+    const rangeEnd = dateRange.end
+
+    // Track unique layer names we encounter
+    const layerNames = new Set()
+
+    // Create vector grid layer with temporal filtering using getFeatureStyle
     const vectorGrid = L.vectorGrid.protobuf(vectorTileUrl, {
       pane: 'vectorTiles',
       rendererFactory: L.canvas.tile,
-      vectorTileLayerStyles: {
-        // Only style boundaries - everything else gets hidden
-        boundary: {
+      interactive: false,
+      maxNativeZoom: 14,
+      minZoom: 3,
+      // Use getFeatureStyle function instead of vectorTileLayerStyles
+      getFeatureStyle: function(feature) {
+        const props = feature.properties || {}
+        const layerName = props.layer || props.class || ''
+
+        // Track layer names for debugging
+        if (!layerNames.has(layerName)) {
+          layerNames.add(layerName)
+          console.log('New layer encountered:', layerName, 'sample props:', Object.keys(props).slice(0, 10))
+        }
+
+        // Log a sample of features to see structure
+        if (Math.random() < 0.005) { // Log ~0.5% to avoid spam
+          console.log('Sample feature:', {
+            layerName,
+            properties: props,
+            type: feature.type
+          })
+        }
+
+        // Check if this is a boundary feature
+        const isBoundary = layerName === 'boundary' ||
+                          layerName.includes('boundary') ||
+                          props.admin_level !== undefined ||
+                          props.boundary !== undefined
+
+        // If not a boundary, hide it
+        if (!isBoundary) {
+          return {
+            weight: 0,
+            opacity: 0,
+            fillOpacity: 0
+          }
+        }
+
+        // Get date information
+        const startDate = props.start_decdate
+        const endDate = props.end_decdate
+
+        // If feature has no date properties, hide it
+        if (startDate === undefined && endDate === undefined) {
+          if (Math.random() < 0.01) {
+            console.log('Excluding boundary with no dates:', props.name || 'unnamed')
+          }
+          return {
+            weight: 0,
+            opacity: 0,
+            fillOpacity: 0
+          }
+        }
+
+        // Check if feature overlaps with our date range
+        let shouldShow = false
+
+        if (startDate !== undefined && endDate !== undefined) {
+          shouldShow = startDate <= rangeEnd && endDate >= rangeStart
+          if (shouldShow && Math.random() < 0.1) {
+            console.log('✓ Showing boundary (both dates):', props.name || 'unnamed', { startDate, endDate, rangeStart, rangeEnd })
+          }
+        } else if (startDate !== undefined) {
+          shouldShow = startDate <= rangeEnd
+          if (shouldShow && Math.random() < 0.1) {
+            console.log('✓ Showing boundary (start only):', props.name || 'unnamed', { startDate, rangeStart, rangeEnd })
+          }
+        } else if (endDate !== undefined) {
+          shouldShow = endDate >= rangeStart
+          if (shouldShow && Math.random() < 0.1) {
+            console.log('✓ Showing boundary (end only):', props.name || 'unnamed', { endDate, rangeStart, rangeEnd })
+          }
+        }
+
+        // If doesn't match date range, hide it
+        if (!shouldShow) {
+          return {
+            weight: 0,
+            opacity: 0,
+            fillOpacity: 0
+          }
+        }
+
+        // Return dashed brown styling for boundaries that match
+        return {
           fill: false,
           stroke: true,
           color: '#8b7355',
           weight: 2,
           opacity: 0.8,
           dashArray: '5, 5'
-        },
-        // Hide all other layers explicitly
-        water: { weight: 0, fillOpacity: 0, opacity: 0 },
-        landuse: { weight: 0, fillOpacity: 0, opacity: 0 },
-        place: { weight: 0, fillOpacity: 0, opacity: 0 },
-        road: { weight: 0, fillOpacity: 0, opacity: 0 },
-        building: { weight: 0, fillOpacity: 0, opacity: 0 },
-        transportation: { weight: 0, fillOpacity: 0, opacity: 0 },
-        _default: { weight: 0, fillOpacity: 0, opacity: 0 }
-      },
-      // Filter features by date range and layer type
-      filter: function(feature, zoom) {
-        const props = feature.properties || {}
-
-        // Log the feature structure to debug
-        if (Math.random() < 0.01) { // Log ~1% to avoid spam
-          console.log('Sample feature:', {
-            type: feature.type,
-            layerName: feature.layer?.name,
-            properties: props
-          })
         }
+      }
+    })
 
-        // Check if this is a boundary - try different possible layer name patterns
-        const layerName = feature.layer?.name || ''
-        const isBoundary = layerName === 'boundary' ||
-                          layerName.includes('boundary') ||
-                          layerName === 'boundaries' ||
-                          props.boundary !== undefined
-
-        if (!isBoundary) {
-          return false
-        }
-
-        const startDate = props.start_decdate
-        const endDate = props.end_decdate
-
-        // If feature has no date properties, don't show it (strict filtering)
-        if (startDate === undefined && endDate === undefined) {
-          if (Math.random() < 0.1) { // Log some examples
-            console.log('Excluding boundary with no dates:', props.name || 'unnamed', layerName)
-          }
-          return false
-        }
-
-        // Convert our date range (BCE years are negative)
-        const rangeStart = dateRange.start
-        const rangeEnd = dateRange.end
-
-        // Show feature if it overlaps with our date range
-        let shouldShow = false
-
-        if (startDate !== undefined && endDate !== undefined) {
-          // Feature has both start and end dates
-          shouldShow = startDate <= rangeEnd && endDate >= rangeStart
-          if (shouldShow) {
-            console.log('✓ Showing boundary (both dates):', props.name || 'unnamed', { startDate, endDate, rangeStart, rangeEnd })
-          }
-        } else if (startDate !== undefined) {
-          // Feature has only start date - show if it started before our range ended
-          shouldShow = startDate <= rangeEnd
-          if (shouldShow) {
-            console.log('✓ Showing boundary (start only):', props.name || 'unnamed', { startDate, rangeStart, rangeEnd })
-          }
-        } else if (endDate !== undefined) {
-          // Feature has only end date - show if it ended after our range started
-          shouldShow = endDate >= rangeStart
-          if (shouldShow) {
-            console.log('✓ Showing boundary (end only):', props.name || 'unnamed', { endDate, rangeStart, rangeEnd })
-          }
-        }
-
-        return shouldShow
-      },
-      interactive: false,
-      maxNativeZoom: 14,
-      minZoom: 3
+    // Add event listener to debug tile loading
+    vectorGrid.on('load', () => {
+      console.log('Vector tiles loaded. Encountered layers:', Array.from(layerNames))
     })
 
     vectorGrid.addTo(map)
