@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from 'react'
 import { MapContainer, TileLayer, CircleMarker, Tooltip, Marker, useMap, LayersControl } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import 'leaflet.vectorgrid'
+import 'maplibre-gl/dist/maplibre-gl.css'
+import '@maplibre/maplibre-gl-leaflet'
 
 const { BaseLayer } = LayersControl
 
@@ -96,7 +97,7 @@ function LayerChangeHandler({ onLayerChange }) {
   return null
 }
 
-// Component to add OpenHistoricalMap vector tiles with temporal filtering
+// Component to add OpenHistoricalMap vector tiles with temporal filtering using MapLibre GL
 function TemporalMapLayer({ dateRange, isActive }) {
   const map = useMap()
 
@@ -105,159 +106,70 @@ function TemporalMapLayer({ dateRange, isActive }) {
 
     console.log('Date range for filtering:', dateRange)
 
-    // Create a custom pane for vector tiles to ensure they render on top
-    if (!map.getPane('vectorTiles')) {
-      const pane = map.createPane('vectorTiles')
-      pane.style.zIndex = 650 // Above tile layers (400) but below overlays (600) and markers (700)
-      pane.style.pointerEvents = 'none' // Make non-interactive
-    }
-
-    // OpenHistoricalMap vector tile URL
-    const vectorTileUrl = 'https://vtiles.openhistoricalmap.org/maps/osm/{z}/{x}/{y}.pbf'
-
     const rangeStart = dateRange.start
     const rangeEnd = dateRange.end
 
-    const layerCounts = {}
-
-    // Create a style function that logs which layer it's being called for
-    const createLayerStyle = (layerName) => {
-      return function(properties, zoom) {
-        // Track which layers are actually being styled
-        if (!layerCounts[layerName]) {
-          layerCounts[layerName] = 0
-          console.log(`🎯 LAYER DETECTED: "${layerName}" - style function called!`)
+    // Create MapLibre GL style specification for OHM tiles
+    const style = {
+      version: 8,
+      sources: {
+        'ohm': {
+          type: 'vector',
+          tiles: ['https://vtiles.openhistoricalmap.org/maps/osm/{z}/{x}/{y}.pbf'],
+          maxzoom: 14
         }
-        layerCounts[layerName]++
-
-        // Log first 5 features from each layer
-        if (layerCounts[layerName] <= 5) {
-          console.log(`  Feature #${layerCounts[layerName]} in "${layerName}":`, {
-            properties: properties,
-            keys: Object.keys(properties)
-          })
-        }
-
-        // For boundary layer, apply temporal filtering
-        if (layerName === 'boundary') {
-          const startDate = properties.start_decdate
-          const endDate = properties.end_decdate
-
-          // Log temporal info
-          if (layerCounts[layerName] <= 20 || Math.random() < 0.05) {
-            console.log(`  Boundary: ${properties.name || 'unnamed'}`, {
-              start_decdate: startDate,
-              end_decdate: endDate,
-              rangeStart,
-              rangeEnd
-            })
-          }
-
-          // If no dates, hide it
-          if (startDate === undefined && endDate === undefined) {
-            return { weight: 0, opacity: 0, fillOpacity: 0 }
-          }
-
-          // Check overlap with our date range
-          let shouldShow = false
-          if (startDate !== undefined && endDate !== undefined) {
-            shouldShow = startDate <= rangeEnd && endDate >= rangeStart
-            if (shouldShow) {
-              console.log(`  ✓ SHOWING: ${properties.name || 'unnamed'}`, { startDate, endDate })
-            }
-          } else if (startDate !== undefined) {
-            shouldShow = startDate <= rangeEnd
-            if (shouldShow) {
-              console.log(`  ✓ SHOWING (start only): ${properties.name || 'unnamed'}`, { startDate })
-            }
-          } else if (endDate !== undefined) {
-            shouldShow = endDate >= rangeStart
-            if (shouldShow) {
-              console.log(`  ✓ SHOWING (end only): ${properties.name || 'unnamed'}`, { endDate })
-            }
-          }
-
-          if (!shouldShow) {
-            return { weight: 0, opacity: 0, fillOpacity: 0 }
-          }
-
-          // Return dashed brown for matching boundaries
-          return {
-            fill: false,
-            stroke: true,
-            color: '#8b7355',
-            weight: 2,
-            opacity: 0.8,
-            dashArray: '5, 5'
+      },
+      layers: [
+        {
+          id: 'boundaries-temporal',
+          type: 'line',
+          source: 'ohm',
+          'source-layer': 'boundary',
+          filter: [
+            'all',
+            // Feature must have temporal data
+            ['has', 'start_decdate'],
+            ['has', 'end_decdate'],
+            // Feature must overlap with our date range
+            // start_decdate <= rangeEnd AND end_decdate >= rangeStart
+            ['<=', ['get', 'start_decdate'], rangeEnd],
+            ['>=', ['get', 'end_decdate'], rangeStart]
+          ],
+          paint: {
+            'line-color': '#8b7355',
+            'line-width': 2,
+            'line-opacity': 0.8,
+            'line-dasharray': [2, 2]
           }
         }
-
-        // For all other layers, hide them
-        return { weight: 0, opacity: 0, fillOpacity: 0 }
-      }
+      ]
     }
 
-    // Create vector grid layer - we'll override internal methods to see what's happening
-    const vectorGrid = L.vectorGrid.protobuf(vectorTileUrl, {
-      pane: 'vectorTiles',
-      rendererFactory: L.canvas.tile,
-      interactive: false,
-      maxNativeZoom: 14,
-      minZoom: 3,
-      vectorTileLayerStyles: {
-        // All layers from OHM schema - each gets a function that logs when called
-        water: createLayerStyle('water'),
-        waterway: createLayerStyle('waterway'),
-        landcover: createLayerStyle('landcover'),
-        landuse: createLayerStyle('landuse'),
-        mountain_peak: createLayerStyle('mountain_peak'),
-        park: createLayerStyle('park'),
-        boundary: createLayerStyle('boundary'),
-        aeroway: createLayerStyle('aeroway'),
-        transportation: createLayerStyle('transportation'),
-        building: createLayerStyle('building'),
-        water_name: createLayerStyle('water_name'),
-        transportation_name: createLayerStyle('transportation_name'),
-        place: createLayerStyle('place'),
-        poi: createLayerStyle('poi'),
-        aerodrome_label: createLayerStyle('aerodrome_label')
-      }
+    console.log('Creating MapLibre GL layer with style:', style)
+
+    // Create MapLibre GL layer using L.maplibreGL
+    const maplibreLayer = L.maplibreGL({
+      style: style,
+      pane: 'tilePane' // Use existing pane
     })
 
-    // Hook into tile loading to see actual layer names
-    vectorGrid.on('tileload', (e) => {
-      console.log('Tile loaded, inspecting layers...')
+    maplibreLayer.addTo(map)
+    console.log('MapLibre GL layer added to map')
 
-      // Try to access the internal tile data
-      const tile = e.tile
-      if (tile && tile._features) {
-        const layerNames = Object.keys(tile._features)
-        console.log('ACTUAL layer names in tile:', layerNames)
+    // Log when style loads
+    if (maplibreLayer._glMap) {
+      maplibreLayer._glMap.on('load', () => {
+        console.log('MapLibre GL style loaded successfully')
+      })
 
-        // Log sample feature from each layer
-        layerNames.forEach(layerName => {
-          const features = tile._features[layerName]
-          if (features && features.length > 0) {
-            console.log(`  Layer "${layerName}": ${features.length} features`)
-            console.log('    Sample feature:', features[0])
-          }
-        })
-      } else {
-        console.log('Could not access tile._features')
-      }
-    })
-
-    // Log when tiles load
-    vectorGrid.on('load', () => {
-      console.log('Vector tiles loaded. Layer summary:', layerCounts)
-    })
-
-    vectorGrid.addTo(map)
-    console.log('Vector grid layer added to pane:', 'vectorTiles')
+      maplibreLayer._glMap.on('error', (e) => {
+        console.error('MapLibre GL error:', e)
+      })
+    }
 
     // Cleanup function to remove layer when component unmounts or becomes inactive
     return () => {
-      map.removeLayer(vectorGrid)
+      map.removeLayer(maplibreLayer)
     }
   }, [map, dateRange, isActive])
 
