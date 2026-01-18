@@ -120,39 +120,39 @@ function TemporalMapLayer({ dateRange, isActive }) {
 
     // Track unique layer names we encounter
     const layerNames = new Set()
+    let featureCount = 0
 
-    // Create vector grid layer with temporal filtering using getFeatureStyle
+    // Create vector grid layer with temporal filtering
     const vectorGrid = L.vectorGrid.protobuf(vectorTileUrl, {
       pane: 'vectorTiles',
       rendererFactory: L.canvas.tile,
       interactive: false,
       maxNativeZoom: 14,
       minZoom: 3,
-      // Use getFeatureStyle function instead of vectorTileLayerStyles
-      getFeatureStyle: function(feature) {
-        const props = feature.properties || {}
-        const layerName = props.layer || props.class || ''
+      // vectorTileLayerStyles should be a function that returns styles based on properties
+      vectorTileLayerStyles: function(properties, zoom) {
+        featureCount++
 
-        // Track layer names for debugging
-        if (!layerNames.has(layerName)) {
-          layerNames.add(layerName)
-          console.log('New layer encountered:', layerName, 'sample props:', Object.keys(props).slice(0, 10))
+        // Log first few features to understand structure
+        if (featureCount <= 20) {
+          console.log(`Feature #${featureCount}:`, {
+            properties,
+            allKeys: Object.keys(properties)
+          })
         }
 
-        // Log a sample of features to see structure
-        if (Math.random() < 0.005) { // Log ~0.5% to avoid spam
-          console.log('Sample feature:', {
-            layerName,
-            properties: props,
-            type: feature.type
-          })
+        // Track layer names
+        const layerName = properties.layer || properties.class || 'unknown'
+        if (!layerNames.has(layerName)) {
+          layerNames.add(layerName)
+          console.log('New layer encountered:', layerName)
         }
 
         // Check if this is a boundary feature
         const isBoundary = layerName === 'boundary' ||
                           layerName.includes('boundary') ||
-                          props.admin_level !== undefined ||
-                          props.boundary !== undefined
+                          properties.admin_level !== undefined ||
+                          properties.boundary !== undefined
 
         // If not a boundary, hide it
         if (!isBoundary) {
@@ -164,13 +164,23 @@ function TemporalMapLayer({ dateRange, isActive }) {
         }
 
         // Get date information
-        const startDate = props.start_decdate
-        const endDate = props.end_decdate
+        const startDate = properties.start_decdate
+        const endDate = properties.end_decdate
+
+        // Log boundaries to see their date properties
+        if (Math.random() < 0.1) {
+          console.log('Boundary found:', {
+            name: properties.name || 'unnamed',
+            startDate,
+            endDate,
+            allProps: Object.keys(properties)
+          })
+        }
 
         // If feature has no date properties, hide it
         if (startDate === undefined && endDate === undefined) {
-          if (Math.random() < 0.01) {
-            console.log('Excluding boundary with no dates:', props.name || 'unnamed')
+          if (Math.random() < 0.05) {
+            console.log('Excluding boundary with no dates:', properties.name || 'unnamed')
           }
           return {
             weight: 0,
@@ -184,18 +194,18 @@ function TemporalMapLayer({ dateRange, isActive }) {
 
         if (startDate !== undefined && endDate !== undefined) {
           shouldShow = startDate <= rangeEnd && endDate >= rangeStart
-          if (shouldShow && Math.random() < 0.1) {
-            console.log('✓ Showing boundary (both dates):', props.name || 'unnamed', { startDate, endDate, rangeStart, rangeEnd })
+          if (shouldShow) {
+            console.log('✓ Showing boundary (both dates):', properties.name || 'unnamed', { startDate, endDate, rangeStart, rangeEnd })
           }
         } else if (startDate !== undefined) {
           shouldShow = startDate <= rangeEnd
-          if (shouldShow && Math.random() < 0.1) {
-            console.log('✓ Showing boundary (start only):', props.name || 'unnamed', { startDate, rangeStart, rangeEnd })
+          if (shouldShow) {
+            console.log('✓ Showing boundary (start only):', properties.name || 'unnamed', { startDate, rangeStart, rangeEnd })
           }
         } else if (endDate !== undefined) {
           shouldShow = endDate >= rangeStart
-          if (shouldShow && Math.random() < 0.1) {
-            console.log('✓ Showing boundary (end only):', props.name || 'unnamed', { endDate, rangeStart, rangeEnd })
+          if (shouldShow) {
+            console.log('✓ Showing boundary (end only):', properties.name || 'unnamed', { endDate, rangeStart, rangeEnd })
           }
         }
 
@@ -222,7 +232,7 @@ function TemporalMapLayer({ dateRange, isActive }) {
 
     // Add event listener to debug tile loading
     vectorGrid.on('load', () => {
-      console.log('Vector tiles loaded. Encountered layers:', Array.from(layerNames))
+      console.log('Vector tiles loaded. Total features:', featureCount, 'Encountered layers:', Array.from(layerNames))
     })
 
     vectorGrid.addTo(map)
