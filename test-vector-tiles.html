@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>OHM Vector Tile Inspector</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    body { margin: 0; padding: 20px; font-family: monospace; }
+    #map { height: 500px; width: 100%; margin-bottom: 20px; }
+    #output {
+      background: #f0f0f0;
+      padding: 10px;
+      max-height: 400px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      font-size: 12px;
+    }
+    .layer-name { color: blue; font-weight: bold; }
+    .feature-count { color: green; }
+    .property { color: purple; }
+  </style>
+</head>
+<body>
+  <h2>OpenHistoricalMap Vector Tile Inspector</h2>
+  <p>Map centered on Sparta. Inspecting tile structure and layers...</p>
+  <div id="map"></div>
+  <div id="output"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.vectorgrid@1.3.0/dist/Leaflet.VectorGrid.bundled.js"></script>
+
+  <script>
+    const output = document.getElementById('output');
+
+    function log(msg, className = '') {
+      const div = document.createElement('div');
+      div.textContent = msg;
+      if (className) div.className = className;
+      output.appendChild(div);
+      console.log(msg);
+    }
+
+    // Sparta coordinates: approximately 37.08°N, 22.42°E
+    const spartaLat = 37.08;
+    const spartaLng = 22.42;
+
+    const map = L.map('map').setView([spartaLat, spartaLng], 10);
+
+    // Add base layer for reference
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap',
+      opacity: 0.3
+    }).addTo(map);
+
+    log('=== INSPECTING OHM VECTOR TILES ===\n');
+    log(`Centered on Sparta: ${spartaLat}, ${spartaLng}\n`);
+
+    const layerStats = {};
+    let totalFeatures = 0;
+    const sampleFeatures = [];
+
+    const vectorTileUrl = 'https://vtiles.openhistoricalmap.org/maps/osm/{z}/{x}/{y}.pbf';
+
+    // Create vector grid with logging for ALL layers
+    const vectorGrid = L.vectorGrid.protobuf(vectorTileUrl, {
+      rendererFactory: L.canvas.tile,
+      interactive: true,
+      maxNativeZoom: 14,
+      vectorTileLayerStyles: {
+        // We need to provide a default style that logs everything
+      },
+      // Try using getFeatureId to intercept all features
+      getFeatureId: function(feature) {
+        totalFeatures++;
+
+        // Try to get layer name from feature
+        const layerName = feature.layer?.name || 'unknown';
+
+        if (!layerStats[layerName]) {
+          layerStats[layerName] = 0;
+        }
+        layerStats[layerName]++;
+
+        // Save first 20 features for detailed inspection
+        if (sampleFeatures.length < 20) {
+          sampleFeatures.push({
+            layer: layerName,
+            properties: feature.properties,
+            type: feature.type
+          });
+        }
+
+        return feature.properties.id || totalFeatures;
+      }
+    });
+
+    // Override _addTileToContainer to inspect raw tile data
+    const originalAddTile = vectorGrid._addTile;
+    vectorGrid._addTile = function(tilePoint, container) {
+      log(`Loading tile: z=${tilePoint.z}, x=${tilePoint.x}, y=${tilePoint.y}`);
+      return originalAddTile.call(this, tilePoint, container);
+    };
+
+    vectorGrid.on('load', () => {
+      log('\n=== TILE LOADING COMPLETE ===\n', 'feature-count');
+
+      log(`Total features processed: ${totalFeatures}\n`, 'feature-count');
+
+      log('Layers found:', 'layer-name');
+      for (const [layerName, count] of Object.entries(layerStats)) {
+        log(`  ${layerName}: ${count} features`, 'layer-name');
+      }
+
+      log('\n=== SAMPLE FEATURES ===\n', 'property');
+      sampleFeatures.forEach((feature, i) => {
+        log(`\nFeature ${i + 1}:`);
+        log(`  Layer: ${feature.layer}`);
+        log(`  Type: ${feature.type}`);
+        log(`  Properties:`);
+        for (const [key, value] of Object.entries(feature.properties || {})) {
+          // Highlight temporal properties
+          if (key.includes('date') || key.includes('start') || key.includes('end')) {
+            log(`    ${key}: ${value}`, 'property');
+          } else {
+            log(`    ${key}: ${value}`);
+          }
+        }
+      });
+
+      // Look for Sparta specifically
+      log('\n=== SEARCHING FOR SPARTA ===\n', 'layer-name');
+      const spartaFeatures = sampleFeatures.filter(f =>
+        f.properties.name?.toLowerCase().includes('sparta') ||
+        f.properties.name?.toLowerCase().includes('lacedaemon')
+      );
+
+      if (spartaFeatures.length > 0) {
+        log('Found Sparta-related features:', 'feature-count');
+        spartaFeatures.forEach(f => {
+          log(JSON.stringify(f, null, 2));
+        });
+      } else {
+        log('No Sparta features found in sample. May need to zoom or pan.');
+      }
+    });
+
+    vectorGrid.addTo(map);
+
+    log('Waiting for tiles to load...\n');
+  </script>
+</body>
+</html>

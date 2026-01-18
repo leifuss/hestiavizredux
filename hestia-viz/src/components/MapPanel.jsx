@@ -118,94 +118,86 @@ function TemporalMapLayer({ dateRange, isActive }) {
     const rangeStart = dateRange.start
     const rangeEnd = dateRange.end
 
-    let featureCount = 0
+    const layerCounts = {}
 
-    // Style function for boundary features with temporal filtering
-    const styleBoundary = function(properties) {
-      featureCount++
-
-      // Log first few features to see structure
-      if (featureCount <= 10) {
-        console.log(`Boundary feature #${featureCount}:`, {
-          properties,
-          allKeys: Object.keys(properties)
-        })
-      }
-
-      // Get date information
-      const startDate = properties.start_decdate
-      const endDate = properties.end_decdate
-
-      // Log to see if boundaries have temporal data
-      if (featureCount <= 50 || Math.random() < 0.05) {
-        console.log('Boundary:', properties.name || 'unnamed', {
-          startDate,
-          endDate,
-          hasTemporalData: startDate !== undefined || endDate !== undefined
-        })
-      }
-
-      // If feature has no date properties, hide it
-      if (startDate === undefined && endDate === undefined) {
-        if (Math.random() < 0.02) {
-          console.log('Excluding boundary with no dates:', properties.name || 'unnamed')
+    // Create a style function that logs which layer it's being called for
+    const createLayerStyle = (layerName) => {
+      return function(properties, zoom) {
+        // Track which layers are actually being styled
+        if (!layerCounts[layerName]) {
+          layerCounts[layerName] = 0
+          console.log(`🎯 LAYER DETECTED: "${layerName}" - style function called!`)
         }
-        return {
-          weight: 0,
-          opacity: 0,
-          fillOpacity: 0
-        }
-      }
+        layerCounts[layerName]++
 
-      // Check if feature overlaps with our date range
-      let shouldShow = false
+        // Log first 5 features from each layer
+        if (layerCounts[layerName] <= 5) {
+          console.log(`  Feature #${layerCounts[layerName]} in "${layerName}":`, {
+            properties: properties,
+            keys: Object.keys(properties)
+          })
+        }
 
-      if (startDate !== undefined && endDate !== undefined) {
-        shouldShow = startDate <= rangeEnd && endDate >= rangeStart
-        if (shouldShow) {
-          console.log('✓ Showing boundary (both dates):', properties.name || 'unnamed', { startDate, endDate, rangeStart, rangeEnd })
-        }
-      } else if (startDate !== undefined) {
-        shouldShow = startDate <= rangeEnd
-        if (shouldShow) {
-          console.log('✓ Showing boundary (start only):', properties.name || 'unnamed', { startDate, rangeStart, rangeEnd })
-        }
-      } else if (endDate !== undefined) {
-        shouldShow = endDate >= rangeStart
-        if (shouldShow) {
-          console.log('✓ Showing boundary (end only):', properties.name || 'unnamed', { endDate, rangeStart, rangeEnd })
-        }
-      }
+        // For boundary layer, apply temporal filtering
+        if (layerName === 'boundary') {
+          const startDate = properties.start_decdate
+          const endDate = properties.end_decdate
 
-      // If doesn't match date range, hide it
-      if (!shouldShow) {
-        return {
-          weight: 0,
-          opacity: 0,
-          fillOpacity: 0
-        }
-      }
+          // Log temporal info
+          if (layerCounts[layerName] <= 20 || Math.random() < 0.05) {
+            console.log(`  Boundary: ${properties.name || 'unnamed'}`, {
+              start_decdate: startDate,
+              end_decdate: endDate,
+              rangeStart,
+              rangeEnd
+            })
+          }
 
-      // Return dashed brown styling for boundaries that match
-      return {
-        fill: false,
-        stroke: true,
-        color: '#8b7355',
-        weight: 2,
-        opacity: 0.8,
-        dashArray: '5, 5'
+          // If no dates, hide it
+          if (startDate === undefined && endDate === undefined) {
+            return { weight: 0, opacity: 0, fillOpacity: 0 }
+          }
+
+          // Check overlap with our date range
+          let shouldShow = false
+          if (startDate !== undefined && endDate !== undefined) {
+            shouldShow = startDate <= rangeEnd && endDate >= rangeStart
+            if (shouldShow) {
+              console.log(`  ✓ SHOWING: ${properties.name || 'unnamed'}`, { startDate, endDate })
+            }
+          } else if (startDate !== undefined) {
+            shouldShow = startDate <= rangeEnd
+            if (shouldShow) {
+              console.log(`  ✓ SHOWING (start only): ${properties.name || 'unnamed'}`, { startDate })
+            }
+          } else if (endDate !== undefined) {
+            shouldShow = endDate >= rangeStart
+            if (shouldShow) {
+              console.log(`  ✓ SHOWING (end only): ${properties.name || 'unnamed'}`, { endDate })
+            }
+          }
+
+          if (!shouldShow) {
+            return { weight: 0, opacity: 0, fillOpacity: 0 }
+          }
+
+          // Return dashed brown for matching boundaries
+          return {
+            fill: false,
+            stroke: true,
+            color: '#8b7355',
+            weight: 2,
+            opacity: 0.8,
+            dashArray: '5, 5'
+          }
+        }
+
+        // For all other layers, hide them
+        return { weight: 0, opacity: 0, fillOpacity: 0 }
       }
     }
 
-    // Hide all other layers
-    const hideLayer = {
-      weight: 0,
-      opacity: 0,
-      fillOpacity: 0
-    }
-
-    // Create vector grid layer with temporal filtering
-    // vectorTileLayerStyles must be an object with layer names as keys
+    // Create vector grid layer with styles for ALL possible OHM layers
     const vectorGrid = L.vectorGrid.protobuf(vectorTileUrl, {
       pane: 'vectorTiles',
       rendererFactory: L.canvas.tile,
@@ -213,27 +205,28 @@ function TemporalMapLayer({ dateRange, isActive }) {
       maxNativeZoom: 14,
       minZoom: 3,
       vectorTileLayerStyles: {
-        // Common OSM/OHM layer names
-        boundary: styleBoundary,
-        boundaries: styleBoundary,
-        admin: styleBoundary,
-
-        // Hide all other layers
-        water: hideLayer,
-        waterway: hideLayer,
-        landuse: hideLayer,
-        place: hideLayer,
-        transportation: hideLayer,
-        road: hideLayer,
-        building: hideLayer,
-        poi: hideLayer,
-        natural: hideLayer
+        // All layers from OHM schema - each gets a function that logs when called
+        water: createLayerStyle('water'),
+        waterway: createLayerStyle('waterway'),
+        landcover: createLayerStyle('landcover'),
+        landuse: createLayerStyle('landuse'),
+        mountain_peak: createLayerStyle('mountain_peak'),
+        park: createLayerStyle('park'),
+        boundary: createLayerStyle('boundary'),
+        aeroway: createLayerStyle('aeroway'),
+        transportation: createLayerStyle('transportation'),
+        building: createLayerStyle('building'),
+        water_name: createLayerStyle('water_name'),
+        transportation_name: createLayerStyle('transportation_name'),
+        place: createLayerStyle('place'),
+        poi: createLayerStyle('poi'),
+        aerodrome_label: createLayerStyle('aerodrome_label')
       }
     })
 
     // Log when tiles load
     vectorGrid.on('load', () => {
-      console.log('Vector tiles loaded. Total boundary features processed:', featureCount)
+      console.log('Vector tiles loaded. Layer summary:', layerCounts)
     })
 
     vectorGrid.addTo(map)
