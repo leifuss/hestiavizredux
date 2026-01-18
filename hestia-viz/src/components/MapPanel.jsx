@@ -197,7 +197,7 @@ function TemporalMapLayer({ dateRange, isActive }) {
       }
     }
 
-    // Create vector grid layer with styles for ALL possible OHM layers
+    // Create vector grid layer - we'll override internal methods to see what's happening
     const vectorGrid = L.vectorGrid.protobuf(vectorTileUrl, {
       pane: 'vectorTiles',
       rendererFactory: L.canvas.tile,
@@ -221,6 +221,29 @@ function TemporalMapLayer({ dateRange, isActive }) {
         place: createLayerStyle('place'),
         poi: createLayerStyle('poi'),
         aerodrome_label: createLayerStyle('aerodrome_label')
+      }
+    })
+
+    // Hook into tile loading to see actual layer names
+    vectorGrid.on('tileload', (e) => {
+      console.log('Tile loaded, inspecting layers...')
+
+      // Try to access the internal tile data
+      const tile = e.tile
+      if (tile && tile._features) {
+        const layerNames = Object.keys(tile._features)
+        console.log('ACTUAL layer names in tile:', layerNames)
+
+        // Log sample feature from each layer
+        layerNames.forEach(layerName => {
+          const features = tile._features[layerName]
+          if (features && features.length > 0) {
+            console.log(`  Layer "${layerName}": ${features.length} features`)
+            console.log('    Sample feature:', features[0])
+          }
+        })
+      } else {
+        console.log('Could not access tile._features')
       }
     })
 
