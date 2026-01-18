@@ -130,9 +130,10 @@ function TemporalMapLayer({ dateRange, isActive }) {
             // Feature must have temporal data
             ['has', 'start_decdate'],
             ['has', 'end_decdate'],
-            // Feature must overlap with our date range
-            // start_decdate <= rangeEnd AND end_decdate >= rangeStart
-            ['<=', ['get', 'start_decdate'], rangeEnd],
+            // Feature must exist at the book's opening date (rangeStart)
+            // start_decdate <= rangeStart (feature had already started)
+            // end_decdate >= rangeStart (feature still existed at that time)
+            ['<=', ['get', 'start_decdate'], rangeStart],
             ['>=', ['get', 'end_decdate'], rangeStart]
           ],
           paint: {
